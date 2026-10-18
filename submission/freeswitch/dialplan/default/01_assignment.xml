@@ -1,0 +1,127 @@
+<!--
+  Task 2 — Dialplan & Call Routing
+  Place in: /etc/freeswitch/dialplan/default/01_assignment.xml
+  Apply:    fs_cli -x "reloadxml"
+  Verify:   fs_cli -x "xml_locate dialplan"
+
+  Covers: extension routing, blind and attended transfer, outbound routing,
+  and error handling on bridge failure.
+
+  DELIBERATELY NOT REDEFINED HERE
+  Vanilla FreeSWITCH already ships these, and they are used as-is for the media
+  diagnostics in task 4. Redefining them would shadow the defaults for no gain:
+      9196  echo test        (your audio returns — proves BOTH directions)
+      9195  delayed echo 250 ms
+      9197  milliwatt tone   (switch -> you only — isolates ONE direction)
+      9198  tone stream
+      9664  music on hold
+      5000  IVR demo
+      3000-3099 conference rooms
+      4000 / *98 voicemail
+  The echo/tone pair is the useful diagnostic: if echo works but a bridged call
+  does not, this box's media path is fine and the fault is the far endpoint.
+
+  EVALUATION ORDER — verified from a live dialplan trace, not assumed
+  dialplan/default.xml lists its own extensions INLINE and places the
+  <X-PRE-PROCESS include data="default/*.xml"/> at the END of the context. So the
+  shipped extensions are evaluated FIRST and these files last, which means
+  vanilla's Local_Extension (^(10[01][0-9])$) catches 1000-1019 before the
+  extension below is ever reached.
+
+  To make this dialplan take precedence — which is what you want in any real
+  deployment — move that include to immediately after <context name="default">.
+  Confirm with: fs_cli -x "xml_locate dialplan", or per call with /log 7 and
+  reading the "Dialplan: ... Regex (PASS)" lines.
+-->
+<include>
+
+  <!-- ================================================================
+       1. INTERNAL EXTENSION ROUTING  (1000-1019, matching the default directory)
+       Requires the include to be moved to the top of the context, otherwise
+       vanilla's Local_Extension shadows this.
+       Demonstrates: user bridge + error handling on failure.
+
+       continue_on_fail=true is what makes the actions AFTER the bridge run.
+       Without it a failed bridge ends the extension immediately and the caller
+       gets silence then a drop — the single most common dialplan bug, and the
+       difference between a call you can investigate later and one that vanishes.
+       ================================================================ -->
+  <extension name="assignment_internal_extension">
+    <condition field="destination_number" expression="^(10[01][0-9])$">
+      <action application="set" data="call_direction=internal"/>
+      <action application="set" data="hangup_after_bridge=true"/>
+      <action application="set" data="continue_on_fail=true"/>
+      <action application="set" data="ringback=${us-ring}"/>
+      <!-- agent_id is exported onto the B leg so the ESL adapter in task 5 can
+           attribute the channel to an agent instead of guessing from the SIP user -->
+      <action application="export" data="agent_id=$1"/>
+      <action application="bridge" data="user/$1@${domain_name}"/>
+
+      <!-- reached only when the bridge failed -->
+      <action application="log"
+              data="WARNING [assignment] bridge to $1 failed: originate_disposition=${originate_disposition} cause=${hangup_cause} sip=${last_bridge_proto_specific_hangup_cause}"/>
+      <action application="answer"/>
+      <action application="sleep" data="500"/>
+      <action application="playback" data="ivr/ivr-call_cannot_be_completed_as_dialed.wav"/>
+      <action application="hangup" data="NO_USER_RESPONSE"/>
+    </condition>
+  </extension>
+
+
+  <!-- ================================================================
+       2. BLIND TRANSFER   *1<ext>
+       Dial *11002 mid-call to push the call to 1002 and drop out of it.
+       transfer() re-enters the dialplan, so the internal extension's own
+       failure branch above still applies to the transferred leg.
+       ================================================================ -->
+  <extension name="assignment_blind_transfer">
+    <condition field="destination_number" expression="^\*1(10[01][0-9])$">
+      <action application="log" data="INFO [assignment] blind transfer to $1"/>
+      <action application="transfer" data="$1 XML default"/>
+    </condition>
+  </extension>
+
+
+  <!-- ================================================================
+       3. ATTENDED TRANSFER   *2<ext>
+       Consults the third party first, then completes the handover.
+       ================================================================ -->
+  <extension name="assignment_attended_transfer">
+    <condition field="destination_number" expression="^\*2(10[01][0-9])$">
+      <action application="log" data="INFO [assignment] attended transfer to $1"/>
+      <action application="set" data="origination_cancel_key=#"/>
+      <action application="att_xfer" data="user/$1@${domain_name}"/>
+    </condition>
+  </extension>
+
+
+  <!-- ================================================================
+       4. OUTBOUND TO PSTN   0 or 9 + 10 digits  (11 digits total)
+       Demonstrates: gateway routing, caller-ID control, error handling.
+
+       The 11-digit length means this cannot collide with the 4-digit service
+       codes (9196, 9197, 9664, 5000...) that the default dialplan owns.
+
+       NOTE: no carrier trunk was available in the lab, so this path exercises
+       its FAILURE branch. That is stated in the README rather than faked.
+       ================================================================ -->
+  <extension name="assignment_outbound">
+    <condition field="destination_number" expression="^(?:0|9)(\d{10})$">
+      <action application="set" data="call_direction=outbound"/>
+      <action application="set" data="effective_caller_id_number=${outbound_caller_id_number}"/>
+      <action application="set" data="effective_caller_id_name=Assignment Lab"/>
+      <action application="set" data="hangup_after_bridge=true"/>
+      <action application="set" data="continue_on_fail=true"/>
+      <action application="export" data="agent_id=${caller_id_number}"/>
+      <action application="bridge" data="sofia/gateway/assignment_gw/$1"/>
+
+      <action application="log"
+              data="WARNING [assignment] outbound to $1 failed: originate_disposition=${originate_disposition} cause=${hangup_cause}"/>
+      <action application="answer"/>
+      <action application="sleep" data="500"/>
+      <action application="playback" data="ivr/ivr-call_rejected.wav"/>
+      <action application="hangup" data="NORMAL_TEMPORARY_FAILURE"/>
+    </condition>
+  </extension>
+
+</include>

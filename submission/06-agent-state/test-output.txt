@@ -1,0 +1,20 @@
+ok    test_contradictory_states_are_representable
+ok    test_duplicate_event_is_applied_exactly_once
+ok    test_esl_answer_event_maps_to_talking
+ok    test_esl_ignores_events_that_do_not_change_agent_state
+ok    test_hold_counts_as_occupied
+ok    test_late_event_in_one_dimension_cannot_clobber_another
+ok    test_missing_telephony_events_make_the_agent_stale_not_wrong
+ok    test_out_of_order_event_is_rejected
+ok    test_overlapping_talk_and_acw_cannot_push_occupancy_above_one
+ok    test_real_call_supersedes_the_reservation
+ok    test_reconcile_corrects_drift_and_refreshes_freshness
+ok    test_reporting_computes_intervals_from_the_transition_log
+ok    test_reservation_expires_so_a_crashed_router_does_not_strand_an_agent
+ok    test_restart_recovery_is_deterministic
+ok    test_routable_requires_all_three_dimensions
+ok    test_shuffled_event_order_converges_to_the_same_state
+ok    test_source_cannot_write_a_dimension_it_does_not_own
+ok    test_two_routers_cannot_both_reserve_one_agent
+
+18 passed, 0 failed, 18 total

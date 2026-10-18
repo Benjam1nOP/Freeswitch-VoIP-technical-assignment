@@ -1,0 +1,12 @@
+$ ls -1 /etc/freeswitch/dialplan/default/
+
+00_pizza_demo.xml
+01_assignment.xml
+01_example.com.xml
+01_Talking_Clock.xml
+99_assignment_invalid.xml
+ideasip.com.noload
+pulver.com.noload
+sipbroker.com.noload
+sipphone.com.noload
+tollfreegateway.com.noload

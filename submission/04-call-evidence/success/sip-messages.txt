@@ -1,0 +1,42 @@
+1:recv 954 bytes from udp/[192.168.1.10]:53326 at 22:33:10.212564:
+3:INVITE sip:1002@192.168.1.4 SIP/2.0
+41:send 877 bytes to udp/[192.168.1.10]:53326 at 22:33:10.215417:
+43:SIP/2.0 407 Proxy Authentication Required
+59:recv 339 bytes from udp/[192.168.1.10]:53326 at 22:33:10.216125:
+61:ACK sip:1002@192.168.1.4 SIP/2.0
+71:recv 1220 bytes from udp/[192.168.1.10]:53326 at 22:33:10.216169:
+73:INVITE sip:1002@192.168.1.4 SIP/2.0
+141:send 375 bytes to udp/[192.168.1.10]:53326 at 22:33:10.237725:
+143:SIP/2.0 100 Trying
+219:send 1226 bytes to udp/[192.168.1.6]:49711 at 22:33:10.244223:
+221:INVITE sip:1002@192.168.1.6:49711;transport=udp SIP/2.0
+260:recv 294 bytes from udp/[192.168.1.6]:49711 at 22:33:10.301415:
+262:SIP/2.0 100 Trying
+270:recv 448 bytes from udp/[192.168.1.6]:49711 at 22:33:10.336067:
+272:SIP/2.0 180 Ringing
+327:send 1196 bytes to udp/[192.168.1.10]:53326 at 22:33:10.350351:
+329:SIP/2.0 183 Session Progress
+362:recv 843 bytes from udp/[192.168.1.6]:49711 at 22:33:13.308566:
+364:SIP/2.0 200 Ok
+397:send 399 bytes to udp/[192.168.1.6]:49711 at 22:33:13.309570:
+399:ACK sip:1002@192.168.1.6:49711;transport=udp SIP/2.0
+448:send 1219 bytes to udp/[192.168.1.10]:53326 at 22:33:13.327791:
+450:SIP/2.0 200 OK
+493:send 1219 bytes to udp/[192.168.1.10]:53326 at 22:33:13.827942:
+495:SIP/2.0 200 OK
+525:send 1219 bytes to udp/[192.168.1.10]:53326 at 22:33:14.827941:
+527:SIP/2.0 200 OK
+558:send 1219 bytes to udp/[192.168.1.10]:53326 at 22:33:16.827940:
+560:SIP/2.0 200 OK
+590:send 1219 bytes to udp/[192.168.1.10]:53326 at 22:33:20.827941:
+592:SIP/2.0 200 OK
+622:send 1219 bytes to udp/[192.168.1.10]:53326 at 22:33:24.828046:
+624:SIP/2.0 200 OK
+654:send 1219 bytes to udp/[192.168.1.10]:53326 at 22:33:28.828045:
+656:SIP/2.0 200 OK
+686:send 1219 bytes to udp/[192.168.1.10]:53326 at 22:33:32.828046:
+688:SIP/2.0 200 OK
+718:send 1219 bytes to udp/[192.168.1.10]:53326 at 22:33:36.828070:
+720:SIP/2.0 200 OK
+750:send 1219 bytes to udp/[192.168.1.10]:53326 at 22:33:40.828071:
+752:SIP/2.0 200 OK

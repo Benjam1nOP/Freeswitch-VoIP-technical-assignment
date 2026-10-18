@@ -1,0 +1,36 @@
+$ fs_cli -x "sofia status profile internal reg"
+
+
+Registrations:
+=================================================================================================
+Call-ID:    	pnkWRE7A9p
+User:       	1002@192.168.1.4
+Contact:    	"lakshay2" <sip:1002@192.168.1.6:49711;transport=udp>
+Agent:      	LinphoneAndroid/6.2.8 (realme GT 7) LinphoneSDK/5.5.24 (tags/5.5.24^0)
+Status:     	Registered(UDP)(unknown) EXP(2026-10-18 23:33:27) EXPSECS(2169)
+Ping-Status:	Reachable
+Ping-Time:	0.00
+Host:       	fs-lab
+IP:         	192.168.1.6
+Port:       	49711
+Auth-User:  	1002
+Auth-Realm: 	192.168.1.4
+MWI-Account:	1002@192.168.1.4
+
+Call-ID:    	18351f13e8eb495e8eff741dee4d0a36
+User:       	1001@192.168.1.4
+Contact:    	"" <sip:1001@192.168.1.10:53326;ob>
+Agent:      	MicroSIP/3.22.16
+Status:     	Registered(UDP)(unknown) EXP(2026-10-18 22:59:41) EXPSECS(143)
+Ping-Status:	Reachable
+Ping-Time:	0.00
+Host:       	fs-lab
+IP:         	192.168.1.10
+Port:       	53326
+Auth-User:  	1001
+Auth-Realm: 	192.168.1.4
+MWI-Account:	1001@192.168.1.4
+
+Total items returned: 2
+=================================================================================================
+

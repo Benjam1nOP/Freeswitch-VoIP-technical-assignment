@@ -1,0 +1,13 @@
+$ fs_cli -x "sofia status"
+
+                     Name	   Type	                                      Data	State
+=================================================================================================
+            external-ipv6	profile	                  sip:mod_sofia@[::1]:5080	RUNNING (0)
+                 external	profile	         sip:mod_sofia@223.181.108.88:5080	RUNNING (0)
+    external::example.com	gateway	                   sip:joeuser@example.com	NOREG
+              192.168.1.4	  alias	                                  internal	ALIASED
+            internal-ipv6	profile	                  sip:mod_sofia@[::1]:5060	RUNNING (0)
+                 internal	profile	         sip:mod_sofia@223.181.108.88:5060	RUNNING (0)
+=================================================================================================
+4 profiles 1 alias
+

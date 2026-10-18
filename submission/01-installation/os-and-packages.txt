@@ -1,0 +1,57 @@
+=== OS ===
+Debian GNU/Linux 12 (bookworm)  (codename: bookworm)
+Linux fs-lab 6.1.0-54-amd64 #1 SMP PREEMPT_DYNAMIC Debian 6.1.190-1 (2026-10-16) x86_64 GNU/Linux
+
+=== FreeSWITCH packages ===
+freeswitch 1.11.3-release-33213556856-ef32e20529~bookworm~amd64-1~bookworm+1
+freeswitch-conf-vanilla 1.11.3-release-33213556856-ef32e20529~bookworm~amd64-1~bookworm+1
+freeswitch-lang 1.11.3-release-33213556856-ef32e20529~bookworm~amd64-1~bookworm+1
+freeswitch-lang-en 1.11.3-release-33213556856-ef32e20529~bookworm~amd64-1~bookworm+1
+freeswitch-meta-vanilla 1.11.3-release-33213556856-ef32e20529~bookworm~amd64-1~bookworm+1
+freeswitch-mod-amr 1.11.3-release-33213556856-ef32e20529~bookworm~amd64-1~bookworm+1
+freeswitch-mod-cdr-csv 1.11.3-release-33213556856-ef32e20529~bookworm~amd64-1~bookworm+1
+freeswitch-mod-commands 1.11.3-release-33213556856-ef32e20529~bookworm~amd64-1~bookworm+1
+freeswitch-mod-conference 1.11.3-release-33213556856-ef32e20529~bookworm~amd64-1~bookworm+1
+freeswitch-mod-console 1.11.3-release-33213556856-ef32e20529~bookworm~amd64-1~bookworm+1
+freeswitch-mod-db 1.11.3-release-33213556856-ef32e20529~bookworm~amd64-1~bookworm+1
+freeswitch-mod-dialplan-asterisk 1.11.3-release-33213556856-ef32e20529~bookworm~amd64-1~bookworm+1
+freeswitch-mod-dialplan-xml 1.11.3-release-33213556856-ef32e20529~bookworm~amd64-1~bookworm+1
+freeswitch-mod-dptools 1.11.3-release-33213556856-ef32e20529~bookworm~amd64-1~bookworm+1
+freeswitch-mod-enum 1.11.3-release-33213556856-ef32e20529~bookworm~amd64-1~bookworm+1
+freeswitch-mod-esf 1.11.3-release-33213556856-ef32e20529~bookworm~amd64-1~bookworm+1
+freeswitch-mod-event-socket 1.11.3-release-33213556856-ef32e20529~bookworm~amd64-1~bookworm+1
+freeswitch-mod-expr 1.11.3-release-33213556856-ef32e20529~bookworm~amd64-1~bookworm+1
+freeswitch-mod-fifo 1.11.3-release-33213556856-ef32e20529~bookworm~amd64-1~bookworm+1
+freeswitch-mod-fsv 1.11.3-release-33213556856-ef32e20529~bookworm~amd64-1~bookworm+1
+freeswitch-mod-g723-1 1.11.3-release-33213556856-ef32e20529~bookworm~amd64-1~bookworm+1
+freeswitch-mod-g729 1.11.3-release-33213556856-ef32e20529~bookworm~amd64-1~bookworm+1
+freeswitch-mod-hash 1.11.3-release-33213556856-ef32e20529~bookworm~amd64-1~bookworm+1
+freeswitch-mod-httapi 1.11.3-release-33213556856-ef32e20529~bookworm~amd64-1~bookworm+1
+freeswitch-mod-local-stream 1.11.3-release-33213556856-ef32e20529~bookworm~amd64-1~bookworm+1
+freeswitch-mod-logfile 1.11.3-release-33213556856-ef32e20529~bookworm~amd64-1~bookworm+1
+freeswitch-mod-loopback 1.11.3-release-33213556856-ef32e20529~bookworm~amd64-1~bookworm+1
+freeswitch-mod-lua 1.11.3-release-33213556856-ef32e20529~bookworm~amd64-1~bookworm+1
+freeswitch-mod-native-file 1.11.3-release-33213556856-ef32e20529~bookworm~amd64-1~bookworm+1
+freeswitch-mod-pgsql 1.11.3-release-33213556856-ef32e20529~bookworm~amd64-1~bookworm+1
+freeswitch-mod-say-en 1.11.3-release-33213556856-ef32e20529~bookworm~amd64-1~bookworm+1
+freeswitch-mod-sndfile 1.11.3-release-33213556856-ef32e20529~bookworm~amd64-1~bookworm+1
+freeswitch-mod-sofia 1.11.3-release-33213556856-ef32e20529~bookworm~amd64-1~bookworm+1
+freeswitch-mod-spandsp 1.11.3-release-33213556856-ef32e20529~bookworm~amd64-1~bookworm+1
+freeswitch-mod-tone-stream 1.11.3-release-33213556856-ef32e20529~bookworm~amd64-1~bookworm+1
+freeswitch-mod-valet-parking 1.11.3-release-33213556856-ef32e20529~bookworm~amd64-1~bookworm+1
+freeswitch-mod-voicemail 1.11.3-release-33213556856-ef32e20529~bookworm~amd64-1~bookworm+1
+freeswitch-music-default 1.0.52-1
+freeswitch-sounds-en-us-callie 1.0.53-1
+freeswitch-systemd 1.11.3-release-33213556856-ef32e20529~bookworm~amd64-1~bookworm+1
+freeswitch-timezones 1.11.3-release-33213556856-ef32e20529~bookworm~amd64-1~bookworm+1
+libfreeswitch1 1.11.3-release-33213556856-ef32e20529~bookworm~amd64-1~bookworm+1
+
+=== network ===
+127.0.0.1/8
+192.168.1.4/24
+
+=== listening sockets (SIP) ===
+UNCONN 0      0        192.168.1.4:5060      0.0.0.0:*    users:(("freeswitch",pid=4046,fd=43))
+UNCONN 0      0        192.168.1.4:5080      0.0.0.0:*    users:(("freeswitch",pid=4046,fd=34))
+UNCONN 0      0              [::1]:5060         [::]:*    users:(("freeswitch",pid=4046,fd=25))
+UNCONN 0      0              [::1]:5080         [::]:*    users:(("freeswitch",pid=4046,fd=32))

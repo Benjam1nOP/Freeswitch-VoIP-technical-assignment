@@ -1,0 +1,11 @@
+$ fs_cli -x "show dialplan"
+
+type,name,ikey
+dialplan,LUA,mod_lua
+dialplan,XML,mod_dialplan_xml
+dialplan,asterisk,mod_dialplan_asterisk
+dialplan,enum,mod_enum
+dialplan,inline,mod_dptools
+
+5 total.
+

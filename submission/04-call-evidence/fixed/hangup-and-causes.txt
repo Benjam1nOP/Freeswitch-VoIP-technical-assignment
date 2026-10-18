@@ -1,0 +1,9 @@
+260:89b817f3-ea17-4096-8b6d-b8f4b1c37ce7 Dialplan: sofia/internal/1001@192.168.1.4 Action log(WARNING [assignment] bridge to 1002 failed: originate_disposition=${originate_disposition} cause=${hangup_cause} sip=${last_bridge_proto_specific_hangup_cause})
+2071:89b817f3-ea17-4096-8b6d-b8f4b1c37ce7 2026-10-18 23:22:22.120937 95.40% [NOTICE] sofia.c:8754 Hangup sofia/internal/1001@192.168.1.4 [CS_EXECUTE] [NORMAL_UNSPECIFIED]
+2074:a5b9d42b-7ddc-49f4-ba37-865b0ec77a35 2026-10-18 23:22:22.120937 95.40% [NOTICE] switch_ivr_bridge.c:1027 Hangup sofia/internal/1002@192.168.1.6:49711 [CS_EXCHANGE_MEDIA] [NORMAL_CLEARING]
+2080:a5b9d42b-7ddc-49f4-ba37-865b0ec77a35 2026-10-18 23:22:22.120937 95.40% [DEBUG] mod_sofia.c:469 Channel sofia/internal/1002@192.168.1.6:49711 hanging up, cause: NORMAL_CLEARING
+2090:a5b9d42b-7ddc-49f4-ba37-865b0ec77a35 2026-10-18 23:22:22.120937 95.40% [DEBUG] switch_core_state_machine.c:59 sofia/internal/1002@192.168.1.6:49711 Standard HANGUP, cause: NORMAL_CLEARING
+2095:a5b9d42b-7ddc-49f4-ba37-865b0ec77a35 2026-10-18 23:22:22.120937 95.40% [DEBUG] switch_core_state_machine.c:168 sofia/internal/1002@192.168.1.6:49711 Standard REPORTING, cause: NORMAL_CLEARING
+2109:Reason: Q.850;cause=16;text="NORMAL_CLEARING"
+2475:59eccd48-0c6c-4e39-a66c-b90b67525217 2026-10-18 23:22:36.660911 98.23% [NOTICE] sofia.c:8754 Hangup sofia/internal/1001@192.168.1.4 [CS_EXECUTE] [NORMAL_UNSPECIFIED]
+2678:d7694dd9-b52d-42dd-a2c5-2514655a7605 2026-10-18 23:22:48.520833 98.83% [NOTICE] sofia.c:8754 Hangup sofia/internal/1001@192.168.1.4 [CS_EXECUTE] [NORMAL_UNSPECIFIED]

@@ -1,0 +1,17 @@
+Call capture: success
+Captured at:  2026-10-18 22:33:41 IST
+FreeSWITCH:   FreeSWITCH Version 1.11.3-release-33213556856-ef32e20529~64bit (-release-33213556856-ef32e20529 64bit)
+
+Channel UUIDs:
+  03180b9d-d87f-4c6b-b21c-724da8192652
+  9da4b68c-484d-46fa-bd77-51375495a4b2
+  a35d5c1e-45b8-1240-03a8-000c298671e9
+  d83b6eb5-d3b9-469c-b3da-177e9cd6ab67
+
+Media addresses advertised in SDP (c=IN IP4):
+  c=IN IP4 192.168.1.10
+  c=IN IP4 192.168.1.4
+  c=IN IP4 192.168.1.6
+
+CDR rows produced:
+  (none)

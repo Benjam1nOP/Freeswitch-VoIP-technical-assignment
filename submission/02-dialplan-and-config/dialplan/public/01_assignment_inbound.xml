@@ -1,0 +1,49 @@
+<!--
+  Task 2 — inbound call routing (DID -> agent extension)
+  Place in: /etc/freeswitch/dialplan/public/01_assignment_inbound.xml
+
+  WHY THE 'public' CONTEXT
+  Calls arriving on the EXTERNAL profile (5080) from a carrier are unauthenticated,
+  so they land in the 'public' context rather than 'default'. Treat everything here
+  as untrusted: match the DID explicitly, never fall through to a pattern that could
+  bridge back out to the PSTN. An open public context that reaches an outbound
+  extension is how boxes get used for toll fraud.
+-->
+<include>
+
+  <!-- ================================================================
+       Inbound DID -> queue/agent
+       Accepts 10 digits, optionally prefixed with +91 or 91.
+       ================================================================ -->
+  <extension name="assignment_inbound_did">
+    <condition field="destination_number" expression="^(?:\+?91)?(\d{10})$">
+      <action application="log"
+              data="INFO [assignment] inbound DID=$1 from ${caller_id_number} sip_from=${sip_from_uri}"/>
+      <action application="set" data="call_direction=inbound"/>
+      <action application="set" data="domain_name=${domain}"/>
+      <!-- keep the DID for CDR and reporting -->
+      <action application="set" data="inbound_did=$1"/>
+      <action application="answer"/>
+      <action application="sleep" data="300"/>
+      <action application="playback" data="ivr/ivr-welcome_to_freeswitch.wav"/>
+      <!-- hand to the default context, which owns agent extensions and the
+           error handling; transfer re-enters the dialplan rather than bridging
+           directly, so the internal extension's failure branch still applies -->
+      <action application="transfer" data="1001 XML default"/>
+    </condition>
+  </extension>
+
+
+  <!-- ================================================================
+       Anything else arriving on the public context is rejected explicitly.
+       Being explicit here is a security control, not just tidiness.
+       ================================================================ -->
+  <extension name="assignment_inbound_reject">
+    <condition field="destination_number" expression="^.*$">
+      <action application="log"
+              data="WARNING [assignment] rejecting unknown inbound destination '${destination_number}' from ${network_addr}"/>
+      <action application="respond" data="404 Not Found"/>
+    </condition>
+  </extension>
+
+</include>

@@ -1,0 +1,49 @@
+<!--
+  Task 2 — error handling for invalid extensions
+  Place in: /etc/freeswitch/dialplan/default/99_assignment_invalid.xml
+
+  WHY THIS IS SCOPED AND NOT A UNIVERSAL CATCH-ALL
+  ================================================
+  The obvious implementation is a final extension matching ^.*$ that plays an
+  "invalid entry" prompt. In a context that also hosts service codes that is
+  actively wrong, and understanding why is the point of this file.
+
+  Evaluation order, verified from a live dialplan trace on FreeSWITCH 1.11.3:
+  dialplan/default.xml declares the context, lists its own extensions INLINE,
+  and places the <X-PRE-PROCESS include data="default/*.xml"/> at the END. So
+  the shipped inline extensions are evaluated FIRST and the files in this
+  directory last. Within this directory, files load in case-sensitive ASCII
+  order (01_Talking_Clock before 01_assignment before 01_example.com).
+
+  The first matching extension wins unless it sets continue="true". So a ^.*$
+  extension placed here swallows every extension that comes AFTER it — and if
+  the include is moved to the top of the context, which is what you want so your
+  own dialplan takes precedence over the shipped demo, it swallows the entire
+  rest of the dialplan: the echo test, the tone tests, music on hold, the IVR
+  demo, conference rooms and voicemail all become unreachable. The failure is
+  silent and total — nothing errors, every call just lands on the prompt.
+
+  So this matches only EXTENSION-SHAPED dials that cannot be routed. The real
+  extension rule in 01_assignment.xml consumes 1000-1019 first, so what reaches
+  here is 1020-1999: four digits, looks like an internal extension, is not one.
+
+  Verify the ordering yourself, per call:
+      fs_cli -x "xml_locate dialplan"
+      fs_cli   then  /log 7   and place a call — read the Dialplan: lines
+-->
+<include>
+
+  <extension name="assignment_invalid_extension">
+    <condition field="destination_number" expression="^(1[0-9]{3})$">
+      <action application="log"
+              data="WARNING [assignment] invalid extension '$1' dialled by ${caller_id_number} context=${context}"/>
+      <action application="answer"/>
+      <action application="sleep" data="500"/>
+      <action application="playback" data="ivr/ivr-that_was_an_invalid_entry.wav"/>
+      <!-- UNALLOCATED_NUMBER maps to SIP 404 — the honest response, and it is what
+           appears in the CDR hangup_cause for post-hoc investigation -->
+      <action application="hangup" data="UNALLOCATED_NUMBER"/>
+    </condition>
+  </extension>
+
+</include>

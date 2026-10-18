@@ -1,0 +1,20 @@
+<!--
+  DELIBERATE FAULT for task 4 — do not ship this.
+  A universal catch-all in an INCLUDED dialplan file. dialplan/default.xml
+  splices default/*.xml in at the position of its X-PRE-PROCESS include, and
+  the first matching extension wins unless it sets continue="true". With that
+  include placed at the top of the context, this file sorts first (00_) and its
+  ^.*$ condition therefore shadows every other extension: agent extensions,
+  the echo test, the IVR demo, conferences and voicemail all become
+  unreachable. The failure is silent — nothing errors, every call lands here.
+-->
+<include>
+  <extension name="broken_catchall">
+    <condition field="destination_number" expression="^.*$">
+      <action application="log" data="ERR [FAULT] broken_catchall swallowed ${destination_number}"/>
+      <action application="answer"/>
+      <action application="playback" data="ivr/ivr-that_was_an_invalid_entry.wav"/>
+      <action application="hangup" data="UNALLOCATED_NUMBER"/>
+    </condition>
+  </extension>
+</include>

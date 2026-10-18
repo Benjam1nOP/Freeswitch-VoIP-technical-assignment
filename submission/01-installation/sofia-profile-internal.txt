@@ -1,0 +1,39 @@
+$ fs_cli -x "sofia status profile internal"
+
+=================================================================================================
+Name             	internal
+Domain Name      	N/A
+Auto-NAT         	false
+DBName           	sofia_reg_internal
+Pres Hosts       	192.168.1.4,192.168.1.4
+Dialplan         	XML
+Context          	public
+Challenge Realm  	auto_from
+RTP-IP           	192.168.1.4
+Ext-RTP-IP       	223.181.108.88
+SIP-IP           	192.168.1.4
+Ext-SIP-IP       	223.181.108.88
+URL              	sip:mod_sofia@223.181.108.88:5060
+BIND-URL         	sip:mod_sofia@223.181.108.88:5060;maddr=192.168.1.4;transport=udp,tcp
+WS-BIND-URL     	sip:mod_sofia@192.168.1.4:5066;transport=ws
+WSS-BIND-URL     	sips:mod_sofia@192.168.1.4:7443;transport=wss
+HOLD-MUSIC       	local_stream://moh
+OUTBOUND-PROXY   	N/A
+CODECS IN        	OPUS,G722,PCMU,PCMA,H264,VP8
+CODECS OUT       	OPUS,G722,PCMU,PCMA,H264,VP8
+TEL-EVENT        	101
+DTMF-MODE        	rfc2833
+CNG              	13
+SESSION-TO       	0
+MAX-DIALOG       	0
+MAX-RECV-RPS     	1000
+NOMEDIA          	false
+LATE-NEG         	true
+PROXY-MEDIA      	false
+AGGRESSIVENAT    	false
+CALLS-IN         	52
+FAILED-CALLS-IN  	0
+CALLS-OUT        	9
+FAILED-CALLS-OUT 	0
+REGISTRATIONS    	2
+

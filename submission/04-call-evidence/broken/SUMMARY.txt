@@ -1,0 +1,20 @@
+Call capture: broken
+Captured at:  2026-10-18 23:15:43 IST
+FreeSWITCH:   FreeSWITCH Version 1.11.3-release-33213556856-ef32e20529~64bit (-release-33213556856-ef32e20529 64bit)
+
+Channel UUIDs:
+  1cefadbd-542a-42e4-b13b-2ce1dbef4cd8
+  65cdc080-8bc5-4768-8937-36e96377be23
+  796fd985-6968-448f-a4dd-ed1d719378a1
+  9cf78f54-1acb-40c3-9f42-f7329bba52d5
+  b9ab7d6f-1f06-4f1a-a2ff-753f48de7402
+  ec4b9bc8-7688-46cc-a39d-9b4783539080
+
+Media addresses advertised in SDP (c=IN IP4):
+  c=IN IP4 192.168.1.10
+  c=IN IP4 192.168.1.4
+
+CDR rows produced:
+  "1001","1001","1002","default","2026-10-18 23:15:29","2026-10-18 23:15:29","2026-10-18 23:15:30","1","1","UNALLOCATED_NUMBER","b9ab7d6f-1f06-4f1a-a2ff-753f48de7402","","1001","PCMA","PCMA"
+  "1001","1001","9196","default","2026-10-18 23:15:34","2026-10-18 23:15:34","2026-10-18 23:15:36","2","2","UNALLOCATED_NUMBER","1cefadbd-542a-42e4-b13b-2ce1dbef4cd8","","1001","PCMA","PCMA"
+  "1001","1001","5000","default","2026-10-18 23:15:37","2026-10-18 23:15:37","2026-10-18 23:15:39","2","2","UNALLOCATED_NUMBER","65cdc080-8bc5-4768-8937-36e96377be23","","1001","PCMA","PCMA"

@@ -1,0 +1,1557 @@
+send 1235 bytes to udp/[192.168.1.10]:53326 at 23:13:56.650867:
+------------------------------------------------------------------------
+SIP/2.0 200 OK
+Via: SIP/2.0/UDP 192.168.1.10:53326;rport=53326;branch=z9hG4bKPje7e7261e4dc24f6381ddc3a184c41918
+From: <sip:1001@192.168.1.4>;tag=e4da565abde0456c8ebf40dffcc7b0fc
+To: <sip:1002@192.168.1.4>;tag=pXUQZp0Z58amQ
+Call-ID: f497e05c5f2a4db986b3f690ba4d8634
+CSeq: 15682 INVITE
+Contact: <sip:1002@223.181.108.88:5060;transport=udp>
+User-Agent: FreeSWITCH-mod_sofia/1.11.3-release-33213556856-ef32e20529~64bit
+Accept: application/sdp
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, MESSAGE, INFO, UPDATE, REGISTER, REFER, NOTIFY, PUBLISH, SUBSCRIBE
+Require: timer
+Supported: timer, path, replaces
+Allow-Events: talk, hold, conference, presence, as-feature-event, dialog, line-seize, call-info, sla, include-session-description, presence.winfo, message-summary, refer
+Session-Expires: 1800;refresher=uac
+Content-Type: application/sdp
+Content-Disposition: session
+Content-Length: 251
+Remote-Party-ID: "1002" <sip:1002@192.168.1.4>;party=calling;privacy=off;screen=no
+
+v=0
+o=FreeSWITCH 1792318527 1792318528 IN IP4 192.168.1.4
+s=FreeSWITCH
+c=IN IP4 192.168.1.4
+t=0 0
+m=audio 26878 RTP/AVP 8 101
+a=rtpmap:8 PCMA/8000
+a=rtpmap:101 telephone-event/8000
+a=fmtp:101 0-15
+a=ptime:20
+a=rtcp:26879 IN IP4 192.168.1.4
+
+send 1234 bytes to udp/[192.168.1.10]:53326 at 23:13:57.389636:
+------------------------------------------------------------------------
+SIP/2.0 200 OK
+Via: SIP/2.0/UDP 192.168.1.10:53326;rport=53326;branch=z9hG4bKPj56604b9a14cc451e8b330ac42281f0fc
+From: <sip:1001@192.168.1.4>;tag=716bbeae4bba4398929350549ba129f3
+To: <sip:9196@192.168.1.4>;tag=rFe92c26ZtQSe
+Call-ID: b97886293ece486da0b472900895187c
+CSeq: 9568 INVITE
+Contact: <sip:9196@223.181.108.88:5060;transport=udp>
+User-Agent: FreeSWITCH-mod_sofia/1.11.3-release-33213556856-ef32e20529~64bit
+Accept: application/sdp
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, MESSAGE, INFO, UPDATE, REGISTER, REFER, NOTIFY, PUBLISH, SUBSCRIBE
+Require: timer
+Supported: timer, path, replaces
+Allow-Events: talk, hold, conference, presence, as-feature-event, dialog, line-seize, call-info, sla, include-session-description, presence.winfo, message-summary, refer
+Session-Expires: 1800;refresher=uac
+Content-Type: application/sdp
+Content-Disposition: session
+Content-Length: 251
+Remote-Party-ID: "9196" <sip:9196@192.168.1.4>;party=calling;privacy=off;screen=no
+
+v=0
+o=FreeSWITCH 1792328781 1792328782 IN IP4 192.168.1.4
+s=FreeSWITCH
+c=IN IP4 192.168.1.4
+t=0 0
+m=audio 16632 RTP/AVP 8 101
+a=rtpmap:8 PCMA/8000
+a=rtpmap:101 telephone-event/8000
+a=fmtp:101 0-15
+a=ptime:20
+a=rtcp:16633 IN IP4 192.168.1.4
+
+send 1235 bytes to udp/[192.168.1.10]:53326 at 23:13:57.988637:
+------------------------------------------------------------------------
+SIP/2.0 200 OK
+Via: SIP/2.0/UDP 192.168.1.10:53326;rport=53326;branch=z9hG4bKPj40b059cd5c8549fd8f667ff4d190021d
+From: <sip:1001@192.168.1.4>;tag=2fc82786d80b4a6eb937514e97669a53
+To: <sip:5000@192.168.1.4>;tag=t10t623Dtc4yN
+Call-ID: 624d73c0c7a0452dbe1a95628972ebe9
+CSeq: 15196 INVITE
+Contact: <sip:5000@223.181.108.88:5060;transport=udp>
+User-Agent: FreeSWITCH-mod_sofia/1.11.3-release-33213556856-ef32e20529~64bit
+Accept: application/sdp
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, MESSAGE, INFO, UPDATE, REGISTER, REFER, NOTIFY, PUBLISH, SUBSCRIBE
+Require: timer
+Supported: timer, path, replaces
+Allow-Events: talk, hold, conference, presence, as-feature-event, dialog, line-seize, call-info, sla, include-session-description, presence.winfo, message-summary, refer
+Session-Expires: 1800;refresher=uac
+Content-Type: application/sdp
+Content-Disposition: session
+Content-Length: 251
+Remote-Party-ID: "5000" <sip:5000@192.168.1.4>;party=calling;privacy=off;screen=no
+
+v=0
+o=FreeSWITCH 1792325710 1792325711 IN IP4 192.168.1.4
+s=FreeSWITCH
+c=IN IP4 192.168.1.4
+t=0 0
+m=audio 19708 RTP/AVP 8 101
+a=rtpmap:8 PCMA/8000
+a=rtpmap:101 telephone-event/8000
+a=fmtp:101 0-15
+a=ptime:20
+a=rtcp:19709 IN IP4 192.168.1.4
+
+send 1234 bytes to udp/[192.168.1.10]:53326 at 23:14:01.390453:
+------------------------------------------------------------------------
+SIP/2.0 200 OK
+Via: SIP/2.0/UDP 192.168.1.10:53326;rport=53326;branch=z9hG4bKPj56604b9a14cc451e8b330ac42281f0fc
+From: <sip:1001@192.168.1.4>;tag=716bbeae4bba4398929350549ba129f3
+To: <sip:9196@192.168.1.4>;tag=rFe92c26ZtQSe
+Call-ID: b97886293ece486da0b472900895187c
+CSeq: 9568 INVITE
+Contact: <sip:9196@223.181.108.88:5060;transport=udp>
+User-Agent: FreeSWITCH-mod_sofia/1.11.3-release-33213556856-ef32e20529~64bit
+Accept: application/sdp
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, MESSAGE, INFO, UPDATE, REGISTER, REFER, NOTIFY, PUBLISH, SUBSCRIBE
+Require: timer
+Supported: timer, path, replaces
+Allow-Events: talk, hold, conference, presence, as-feature-event, dialog, line-seize, call-info, sla, include-session-description, presence.winfo, message-summary, refer
+Session-Expires: 1800;refresher=uac
+Content-Type: application/sdp
+Content-Disposition: session
+Content-Length: 251
+Remote-Party-ID: "9196" <sip:9196@192.168.1.4>;party=calling;privacy=off;screen=no
+
+v=0
+o=FreeSWITCH 1792328781 1792328782 IN IP4 192.168.1.4
+s=FreeSWITCH
+c=IN IP4 192.168.1.4
+t=0 0
+m=audio 16632 RTP/AVP 8 101
+a=rtpmap:8 PCMA/8000
+a=rtpmap:101 telephone-event/8000
+a=fmtp:101 0-15
+a=ptime:20
+a=rtcp:16633 IN IP4 192.168.1.4
+
+send 1235 bytes to udp/[192.168.1.10]:53326 at 23:14:01.989454:
+------------------------------------------------------------------------
+SIP/2.0 200 OK
+Via: SIP/2.0/UDP 192.168.1.10:53326;rport=53326;branch=z9hG4bKPj40b059cd5c8549fd8f667ff4d190021d
+From: <sip:1001@192.168.1.4>;tag=2fc82786d80b4a6eb937514e97669a53
+To: <sip:5000@192.168.1.4>;tag=t10t623Dtc4yN
+Call-ID: 624d73c0c7a0452dbe1a95628972ebe9
+CSeq: 15196 INVITE
+Contact: <sip:5000@223.181.108.88:5060;transport=udp>
+User-Agent: FreeSWITCH-mod_sofia/1.11.3-release-33213556856-ef32e20529~64bit
+Accept: application/sdp
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, MESSAGE, INFO, UPDATE, REGISTER, REFER, NOTIFY, PUBLISH, SUBSCRIBE
+Require: timer
+Supported: timer, path, replaces
+Allow-Events: talk, hold, conference, presence, as-feature-event, dialog, line-seize, call-info, sla, include-session-description, presence.winfo, message-summary, refer
+Session-Expires: 1800;refresher=uac
+Content-Type: application/sdp
+Content-Disposition: session
+Content-Length: 251
+Remote-Party-ID: "5000" <sip:5000@192.168.1.4>;party=calling;privacy=off;screen=no
+
+v=0
+o=FreeSWITCH 1792325710 1792325711 IN IP4 192.168.1.4
+s=FreeSWITCH
+c=IN IP4 192.168.1.4
+t=0 0
+m=audio 19708 RTP/AVP 8 101
+a=rtpmap:8 PCMA/8000
+a=rtpmap:101 telephone-event/8000
+a=fmtp:101 0-15
+a=ptime:20
+a=rtcp:19709 IN IP4 192.168.1.4
+
+send 1234 bytes to udp/[192.168.1.10]:53326 at 23:14:05.392322:
+------------------------------------------------------------------------
+SIP/2.0 200 OK
+Via: SIP/2.0/UDP 192.168.1.10:53326;rport=53326;branch=z9hG4bKPj56604b9a14cc451e8b330ac42281f0fc
+From: <sip:1001@192.168.1.4>;tag=716bbeae4bba4398929350549ba129f3
+To: <sip:9196@192.168.1.4>;tag=rFe92c26ZtQSe
+Call-ID: b97886293ece486da0b472900895187c
+CSeq: 9568 INVITE
+Contact: <sip:9196@223.181.108.88:5060;transport=udp>
+User-Agent: FreeSWITCH-mod_sofia/1.11.3-release-33213556856-ef32e20529~64bit
+Accept: application/sdp
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, MESSAGE, INFO, UPDATE, REGISTER, REFER, NOTIFY, PUBLISH, SUBSCRIBE
+Require: timer
+Supported: timer, path, replaces
+Allow-Events: talk, hold, conference, presence, as-feature-event, dialog, line-seize, call-info, sla, include-session-description, presence.winfo, message-summary, refer
+Session-Expires: 1800;refresher=uac
+Content-Type: application/sdp
+Content-Disposition: session
+Content-Length: 251
+Remote-Party-ID: "9196" <sip:9196@192.168.1.4>;party=calling;privacy=off;screen=no
+
+v=0
+o=FreeSWITCH 1792328781 1792328782 IN IP4 192.168.1.4
+s=FreeSWITCH
+c=IN IP4 192.168.1.4
+t=0 0
+m=audio 16632 RTP/AVP 8 101
+a=rtpmap:8 PCMA/8000
+a=rtpmap:101 telephone-event/8000
+a=fmtp:101 0-15
+a=ptime:20
+a=rtcp:16633 IN IP4 192.168.1.4
+
+send 1235 bytes to udp/[192.168.1.10]:53326 at 23:14:05.990596:
+------------------------------------------------------------------------
+SIP/2.0 200 OK
+Via: SIP/2.0/UDP 192.168.1.10:53326;rport=53326;branch=z9hG4bKPj40b059cd5c8549fd8f667ff4d190021d
+From: <sip:1001@192.168.1.4>;tag=2fc82786d80b4a6eb937514e97669a53
+To: <sip:5000@192.168.1.4>;tag=t10t623Dtc4yN
+Call-ID: 624d73c0c7a0452dbe1a95628972ebe9
+CSeq: 15196 INVITE
+Contact: <sip:5000@223.181.108.88:5060;transport=udp>
+User-Agent: FreeSWITCH-mod_sofia/1.11.3-release-33213556856-ef32e20529~64bit
+Accept: application/sdp
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, MESSAGE, INFO, UPDATE, REGISTER, REFER, NOTIFY, PUBLISH, SUBSCRIBE
+Require: timer
+Supported: timer, path, replaces
+Allow-Events: talk, hold, conference, presence, as-feature-event, dialog, line-seize, call-info, sla, include-session-description, presence.winfo, message-summary, refer
+Session-Expires: 1800;refresher=uac
+Content-Type: application/sdp
+Content-Disposition: session
+Content-Length: 251
+Remote-Party-ID: "5000" <sip:5000@192.168.1.4>;party=calling;privacy=off;screen=no
+
+v=0
+o=FreeSWITCH 1792325710 1792325711 IN IP4 192.168.1.4
+s=FreeSWITCH
+c=IN IP4 192.168.1.4
+t=0 0
+m=audio 19708 RTP/AVP 8 101
+a=rtpmap:8 PCMA/8000
+a=rtpmap:101 telephone-event/8000
+a=fmtp:101 0-15
+a=ptime:20
+a=rtcp:19709 IN IP4 192.168.1.4
+
+send 1235 bytes to udp/[192.168.1.10]:53326 at 23:14:09.990597:
+------------------------------------------------------------------------
+SIP/2.0 200 OK
+Via: SIP/2.0/UDP 192.168.1.10:53326;rport=53326;branch=z9hG4bKPj40b059cd5c8549fd8f667ff4d190021d
+From: <sip:1001@192.168.1.4>;tag=2fc82786d80b4a6eb937514e97669a53
+To: <sip:5000@192.168.1.4>;tag=t10t623Dtc4yN
+Call-ID: 624d73c0c7a0452dbe1a95628972ebe9
+CSeq: 15196 INVITE
+Contact: <sip:5000@223.181.108.88:5060;transport=udp>
+User-Agent: FreeSWITCH-mod_sofia/1.11.3-release-33213556856-ef32e20529~64bit
+Accept: application/sdp
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, MESSAGE, INFO, UPDATE, REGISTER, REFER, NOTIFY, PUBLISH, SUBSCRIBE
+Require: timer
+Supported: timer, path, replaces
+Allow-Events: talk, hold, conference, presence, as-feature-event, dialog, line-seize, call-info, sla, include-session-description, presence.winfo, message-summary, refer
+Session-Expires: 1800;refresher=uac
+Content-Type: application/sdp
+Content-Disposition: session
+Content-Length: 251
+Remote-Party-ID: "5000" <sip:5000@192.168.1.4>;party=calling;privacy=off;screen=no
+
+v=0
+o=FreeSWITCH 1792325710 1792325711 IN IP4 192.168.1.4
+s=FreeSWITCH
+c=IN IP4 192.168.1.4
+t=0 0
+m=audio 19708 RTP/AVP 8 101
+a=rtpmap:8 PCMA/8000
+a=rtpmap:101 telephone-event/8000
+a=fmtp:101 0-15
+a=ptime:20
+a=rtcp:19709 IN IP4 192.168.1.4
+
+recv 955 bytes from udp/[192.168.1.10]:53326 at 23:15:29.091712:
+------------------------------------------------------------------------
+INVITE sip:1002@192.168.1.4 SIP/2.0
+Via: SIP/2.0/UDP 192.168.1.10:53326;rport;branch=z9hG4bKPjf0695d409d714c6a8bc5396103d3d639
+Max-Forwards: 70
+From: <sip:1001@192.168.1.4>;tag=dd3bb460178e4fa199efa00f669a357e
+To: <sip:1002@192.168.1.4>
+Contact: <sip:1001@192.168.1.10:53326;ob>
+Call-ID: f66994f47edc414bad2c344957b74745
+CSeq: 10091 INVITE
+Allow: PRACK, INVITE, ACK, BYE, CANCEL, UPDATE, INFO, SUBSCRIBE, NOTIFY, REFER, MESSAGE, OPTIONS
+Supported: replaces, 100rel, timer, norefersub
+Session-Expires: 1800
+Min-SE: 90
+User-Agent: MicroSIP/3.22.16
+Content-Type: application/sdp
+Content-Length:   340
+
+v=0
+o=- 4001354129 4001354129 IN IP4 192.168.1.10
+s=pjmedia
+b=AS:84
+t=0 0
+a=X-nat:0
+m=audio 4056 RTP/AVP 8 0 101
+c=IN IP4 192.168.1.10
+b=TIAS:64000
+a=rtcp:4057 IN IP4 192.168.1.10
+a=sendrecv
+a=rtpmap:8 PCMA/8000
+a=rtpmap:0 PCMU/8000
+a=rtpmap:101 telephone-event/8000
+a=fmtp:101 0-16
+a=ssrc:1406158308 cname:246f27f037df616c
+
+b9ab7d6f-1f06-4f1a-a2ff-753f48de7402 2026-10-18 23:15:29.080965 99.47% [NOTICE] switch_channel.c:1143 New Channel sofia/internal/1001@192.168.1.4 [b9ab7d6f-1f06-4f1a-a2ff-753f48de7402]
+b9ab7d6f-1f06-4f1a-a2ff-753f48de7402 2026-10-18 23:15:29.080965 99.47% [DEBUG] switch_core_state_machine.c:581 (sofia/internal/1001@192.168.1.4) Running State Change CS_NEW (Cur 1 Tot 48)
+b9ab7d6f-1f06-4f1a-a2ff-753f48de7402 2026-10-18 23:15:29.080965 99.47% [INFO] sofia.c:10478 sofia/internal/1001@192.168.1.4 receiving invite from 192.168.1.10:53326 version: 1.11.3 -release-33213556856-ef32e20529 64bit call-id: f66994f47edc414bad2c344957b74745
+2026-10-18 23:15:29.080965 99.47% [DEBUG] sofia.c:10572 verifying acl "domains" for ip/port 192.168.1.10:0.
+b9ab7d6f-1f06-4f1a-a2ff-753f48de7402 2026-10-18 23:15:29.080965 99.47% [DEBUG] switch_core_state_machine.c:600 (sofia/internal/1001@192.168.1.4) State NEW
+send 877 bytes to udp/[192.168.1.10]:53326 at 23:15:29.092653:
+------------------------------------------------------------------------
+SIP/2.0 407 Proxy Authentication Required
+Via: SIP/2.0/UDP 192.168.1.10:53326;rport=53326;branch=z9hG4bKPjf0695d409d714c6a8bc5396103d3d639
+From: <sip:1001@192.168.1.4>;tag=dd3bb460178e4fa199efa00f669a357e
+To: <sip:1002@192.168.1.4>;tag=UatK8XmHQNtHH
+Call-ID: f66994f47edc414bad2c344957b74745
+CSeq: 10091 INVITE
+User-Agent: FreeSWITCH-mod_sofia/1.11.3-release-33213556856-ef32e20529~64bit
+Accept: application/sdp
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, MESSAGE, INFO, UPDATE, REGISTER, REFER, NOTIFY, PUBLISH, SUBSCRIBE
+Supported: timer, path, replaces
+Allow-Events: talk, hold, conference, presence, as-feature-event, dialog, line-seize, call-info, sla, include-session-description, presence.winfo, message-summary, refer
+Proxy-Authenticate: Digest realm="192.168.1.4", nonce="ec4b9bc8-7688-46cc-a39d-9b4783539080", algorithm=MD5, qop="auth"
+Content-Length: 0
+
+
+2026-10-18 23:15:29.080965 99.47% [DEBUG] sofia.c:2408 detaching session b9ab7d6f-1f06-4f1a-a2ff-753f48de7402
+recv 339 bytes from udp/[192.168.1.10]:53326 at 23:15:29.093057:
+------------------------------------------------------------------------
+ACK sip:1002@192.168.1.4 SIP/2.0
+Via: SIP/2.0/UDP 192.168.1.10:53326;rport;branch=z9hG4bKPjf0695d409d714c6a8bc5396103d3d639
+Max-Forwards: 70
+From: <sip:1001@192.168.1.4>;tag=dd3bb460178e4fa199efa00f669a357e
+To: <sip:1002@192.168.1.4>;tag=UatK8XmHQNtHH
+Call-ID: f66994f47edc414bad2c344957b74745
+CSeq: 10091 ACK
+Content-Length:  0
+
+
+recv 1221 bytes from udp/[192.168.1.10]:53326 at 23:15:29.093124:
+------------------------------------------------------------------------
+INVITE sip:1002@192.168.1.4 SIP/2.0
+Via: SIP/2.0/UDP 192.168.1.10:53326;rport;branch=z9hG4bKPjc1a64bb8f3774c9fa431831cdf256796
+Max-Forwards: 70
+From: <sip:1001@192.168.1.4>;tag=dd3bb460178e4fa199efa00f669a357e
+To: <sip:1002@192.168.1.4>
+Contact: <sip:1001@192.168.1.10:53326;ob>
+Call-ID: f66994f47edc414bad2c344957b74745
+CSeq: 10092 INVITE
+Allow: PRACK, INVITE, ACK, BYE, CANCEL, UPDATE, INFO, SUBSCRIBE, NOTIFY, REFER, MESSAGE, OPTIONS
+Supported: replaces, 100rel, timer, norefersub
+Session-Expires: 1800
+Min-SE: 90
+User-Agent: MicroSIP/3.22.16
+Proxy-Authorization: Digest username="1001", realm="192.168.1.4", nonce="ec4b9bc8-7688-46cc-a39d-9b4783539080", uri="sip:1002@192.168.1.4", response="883196584f7cb7c0669cb60630aa4516", algorithm=MD5, cnonce="ab9c3ca323da4daeacf12175292db10a", qop=auth, nc=00000001
+Content-Type: application/sdp
+Content-Length:   340
+
+v=0
+o=- 4001354129 4001354129 IN IP4 192.168.1.10
+s=pjmedia
+b=AS:84
+t=0 0
+a=X-nat:0
+m=audio 4056 RTP/AVP 8 0 101
+c=IN IP4 192.168.1.10
+b=TIAS:64000
+a=rtcp:4057 IN IP4 192.168.1.10
+a=sendrecv
+a=rtpmap:8 PCMA/8000
+a=rtpmap:0 PCMU/8000
+a=rtpmap:101 telephone-event/8000
+a=fmtp:101 0-16
+a=ssrc:1406158308 cname:246f27f037df616c
+
+2026-10-18 23:15:29.080965 99.47% [DEBUG] sofia.c:2523 Re-attaching to session b9ab7d6f-1f06-4f1a-a2ff-753f48de7402
+b9ab7d6f-1f06-4f1a-a2ff-753f48de7402 2026-10-18 23:15:29.100797 99.47% [INFO] sofia.c:10478 sofia/internal/1001@192.168.1.4 receiving invite from 192.168.1.10:53326 version: 1.11.3 -release-33213556856-ef32e20529 64bit call-id: f66994f47edc414bad2c344957b74745
+2026-10-18 23:15:29.100797 99.47% [DEBUG] sofia.c:10572 verifying acl "domains" for ip/port 192.168.1.10:0.
+b9ab7d6f-1f06-4f1a-a2ff-753f48de7402 2026-10-18 23:15:29.100797 99.47% [DEBUG] sofia.c:7511 Channel sofia/internal/1001@192.168.1.4 entering state [received][100]
+b9ab7d6f-1f06-4f1a-a2ff-753f48de7402 2026-10-18 23:15:29.100797 99.47% [DEBUG] sofia.c:7521 Remote SDP:
+b9ab7d6f-1f06-4f1a-a2ff-753f48de7402 v=0
+b9ab7d6f-1f06-4f1a-a2ff-753f48de7402 o=- 4001354129 4001354129 IN IP4 192.168.1.10
+b9ab7d6f-1f06-4f1a-a2ff-753f48de7402 s=pjmedia
+b9ab7d6f-1f06-4f1a-a2ff-753f48de7402 b=AS:84
+b9ab7d6f-1f06-4f1a-a2ff-753f48de7402 t=0 0
+b9ab7d6f-1f06-4f1a-a2ff-753f48de7402 a=X-nat:0
+b9ab7d6f-1f06-4f1a-a2ff-753f48de7402 m=audio 4056 RTP/AVP 8 0 101
+b9ab7d6f-1f06-4f1a-a2ff-753f48de7402 c=IN IP4 192.168.1.10
+b9ab7d6f-1f06-4f1a-a2ff-753f48de7402 b=TIAS:64000
+b9ab7d6f-1f06-4f1a-a2ff-753f48de7402 a=rtpmap:8 PCMA/8000
+b9ab7d6f-1f06-4f1a-a2ff-753f48de7402 a=rtpmap:0 PCMU/8000
+b9ab7d6f-1f06-4f1a-a2ff-753f48de7402 a=rtpmap:101 telephone-event/8000
+b9ab7d6f-1f06-4f1a-a2ff-753f48de7402 a=fmtp:101 0-16
+b9ab7d6f-1f06-4f1a-a2ff-753f48de7402 a=rtcp:4057 IN IP4 192.168.1.10
+b9ab7d6f-1f06-4f1a-a2ff-753f48de7402 a=ssrc:1406158308 cname:246f27f037df616c
+b9ab7d6f-1f06-4f1a-a2ff-753f48de7402 
+b9ab7d6f-1f06-4f1a-a2ff-753f48de7402 2026-10-18 23:15:29.100797 99.47% [DEBUG] sofia.c:7924 (sofia/internal/1001@192.168.1.4) State Change CS_NEW -> CS_INIT
+b9ab7d6f-1f06-4f1a-a2ff-753f48de7402 2026-10-18 23:15:29.100797 99.47% [DEBUG] switch_core_state_machine.c:581 (sofia/internal/1001@192.168.1.4) Running State Change CS_INIT (Cur 1 Tot 48)
+b9ab7d6f-1f06-4f1a-a2ff-753f48de7402 2026-10-18 23:15:29.100797 99.47% [DEBUG] switch_core_state_machine.c:624 (sofia/internal/1001@192.168.1.4) State INIT
+b9ab7d6f-1f06-4f1a-a2ff-753f48de7402 2026-10-18 23:15:29.100797 99.47% [DEBUG] mod_sofia.c:97 sofia/internal/1001@192.168.1.4 SOFIA INIT
+b9ab7d6f-1f06-4f1a-a2ff-753f48de7402 2026-10-18 23:15:29.100797 99.47% [DEBUG] switch_core_state_machine.c:40 sofia/internal/1001@192.168.1.4 Standard INIT
+b9ab7d6f-1f06-4f1a-a2ff-753f48de7402 2026-10-18 23:15:29.100797 99.47% [DEBUG] switch_core_state_machine.c:48 (sofia/internal/1001@192.168.1.4) State Change CS_INIT -> CS_ROUTING
+b9ab7d6f-1f06-4f1a-a2ff-753f48de7402 2026-10-18 23:15:29.100797 99.47% [DEBUG] switch_core_state_machine.c:624 (sofia/internal/1001@192.168.1.4) State INIT going to sleep
+b9ab7d6f-1f06-4f1a-a2ff-753f48de7402 2026-10-18 23:15:29.100797 99.47% [DEBUG] switch_core_state_machine.c:581 (sofia/internal/1001@192.168.1.4) Running State Change CS_ROUTING (Cur 1 Tot 48)
+b9ab7d6f-1f06-4f1a-a2ff-753f48de7402 2026-10-18 23:15:29.100797 99.47% [DEBUG] switch_channel.c:2400 (sofia/internal/1001@192.168.1.4) Callstate Change DOWN -> RINGING
+b9ab7d6f-1f06-4f1a-a2ff-753f48de7402 2026-10-18 23:15:29.100797 99.47% [DEBUG] switch_core_state_machine.c:640 (sofia/internal/1001@192.168.1.4) State ROUTING
+b9ab7d6f-1f06-4f1a-a2ff-753f48de7402 2026-10-18 23:15:29.100797 99.47% [DEBUG] mod_sofia.c:158 sofia/internal/1001@192.168.1.4 SOFIA ROUTING
+b9ab7d6f-1f06-4f1a-a2ff-753f48de7402 2026-10-18 23:15:29.100797 99.47% [DEBUG] switch_core_state_machine.c:230 sofia/internal/1001@192.168.1.4 Standard ROUTING
+b9ab7d6f-1f06-4f1a-a2ff-753f48de7402 2026-10-18 23:15:29.100797 99.47% [INFO] mod_dialplan_xml.c:648 Processing 1001 <1001>->1002 in context default
+send 375 bytes to udp/[192.168.1.10]:53326 at 23:15:29.114360:
+------------------------------------------------------------------------
+SIP/2.0 100 Trying
+Via: SIP/2.0/UDP 192.168.1.10:53326;rport=53326;branch=z9hG4bKPjc1a64bb8f3774c9fa431831cdf256796
+From: <sip:1001@192.168.1.4>;tag=dd3bb460178e4fa199efa00f669a357e
+To: <sip:1002@192.168.1.4>
+Call-ID: f66994f47edc414bad2c344957b74745
+CSeq: 10092 INVITE
+User-Agent: FreeSWITCH-mod_sofia/1.11.3-release-33213556856-ef32e20529~64bit
+Content-Length: 0
+
+
+b9ab7d6f-1f06-4f1a-a2ff-753f48de7402 Dialplan: sofia/internal/1001@192.168.1.4 parsing [default->broken_catchall] continue=false
+b9ab7d6f-1f06-4f1a-a2ff-753f48de7402 Dialplan: sofia/internal/1001@192.168.1.4 Regex (PASS) [broken_catchall] destination_number(1002) =~ /^.*$/ break=on-false
+b9ab7d6f-1f06-4f1a-a2ff-753f48de7402 Dialplan: sofia/internal/1001@192.168.1.4 Action log(ERR [FAULT] broken_catchall swallowed ${destination_number})
+b9ab7d6f-1f06-4f1a-a2ff-753f48de7402 Dialplan: sofia/internal/1001@192.168.1.4 Action answer()
+b9ab7d6f-1f06-4f1a-a2ff-753f48de7402 Dialplan: sofia/internal/1001@192.168.1.4 Action playback(ivr/ivr-that_was_an_invalid_entry.wav)
+b9ab7d6f-1f06-4f1a-a2ff-753f48de7402 Dialplan: sofia/internal/1001@192.168.1.4 Action hangup(UNALLOCATED_NUMBER)
+b9ab7d6f-1f06-4f1a-a2ff-753f48de7402 2026-10-18 23:15:29.100797 99.47% [DEBUG] switch_core_state_machine.c:281 (sofia/internal/1001@192.168.1.4) State Change CS_ROUTING -> CS_EXECUTE
+b9ab7d6f-1f06-4f1a-a2ff-753f48de7402 2026-10-18 23:15:29.100797 99.47% [DEBUG] switch_core_state_machine.c:640 (sofia/internal/1001@192.168.1.4) State ROUTING going to sleep
+b9ab7d6f-1f06-4f1a-a2ff-753f48de7402 2026-10-18 23:15:29.100797 99.47% [DEBUG] switch_core_state_machine.c:581 (sofia/internal/1001@192.168.1.4) Running State Change CS_EXECUTE (Cur 1 Tot 48)
+b9ab7d6f-1f06-4f1a-a2ff-753f48de7402 2026-10-18 23:15:29.100797 99.47% [DEBUG] switch_core_state_machine.c:647 (sofia/internal/1001@192.168.1.4) State EXECUTE
+b9ab7d6f-1f06-4f1a-a2ff-753f48de7402 2026-10-18 23:15:29.100797 99.47% [DEBUG] mod_sofia.c:213 sofia/internal/1001@192.168.1.4 SOFIA EXECUTE
+b9ab7d6f-1f06-4f1a-a2ff-753f48de7402 2026-10-18 23:15:29.100797 99.47% [DEBUG] switch_core_state_machine.c:323 sofia/internal/1001@192.168.1.4 Standard EXECUTE
+b9ab7d6f-1f06-4f1a-a2ff-753f48de7402 EXECUTE [depth=0] sofia/internal/1001@192.168.1.4 log(ERR [FAULT] broken_catchall swallowed 1002)
+b9ab7d6f-1f06-4f1a-a2ff-753f48de7402 2026-10-18 23:15:29.100797 99.47% [ERR] mod_dptools.c:1865 [FAULT] broken_catchall swallowed 1002
+b9ab7d6f-1f06-4f1a-a2ff-753f48de7402 EXECUTE [depth=0] sofia/internal/1001@192.168.1.4 answer()
+b9ab7d6f-1f06-4f1a-a2ff-753f48de7402 2026-10-18 23:15:29.100797 99.47% [DEBUG] switch_core_media.c:5548 Audio Codec Compare [PCMA:8:8000:20:64000:1]/[G722:9:8000:20:64000:1]
+b9ab7d6f-1f06-4f1a-a2ff-753f48de7402 2026-10-18 23:15:29.100797 99.47% [DEBUG] switch_core_media.c:5548 Audio Codec Compare [PCMA:8:8000:20:64000:1]/[PCMU:0:8000:20:64000:1]
+b9ab7d6f-1f06-4f1a-a2ff-753f48de7402 2026-10-18 23:15:29.100797 99.47% [DEBUG] switch_core_media.c:5548 Audio Codec Compare [PCMA:8:8000:20:64000:1]/[PCMA:8:8000:20:64000:1]
+b9ab7d6f-1f06-4f1a-a2ff-753f48de7402 2026-10-18 23:15:29.100797 99.47% [DEBUG] switch_core_media.c:5610 Audio Codec Compare [PCMA:8:8000:20:64000:1] ++++ is saved as a match
+b9ab7d6f-1f06-4f1a-a2ff-753f48de7402 2026-10-18 23:15:29.100797 99.47% [DEBUG] switch_core_media.c:5548 Audio Codec Compare [PCMU:0:8000:20:64000:1]/[G722:9:8000:20:64000:1]
+b9ab7d6f-1f06-4f1a-a2ff-753f48de7402 2026-10-18 23:15:29.100797 99.47% [DEBUG] switch_core_media.c:5548 Audio Codec Compare [PCMU:0:8000:20:64000:1]/[PCMU:0:8000:20:64000:1]
+b9ab7d6f-1f06-4f1a-a2ff-753f48de7402 2026-10-18 23:15:29.100797 99.47% [DEBUG] switch_core_media.c:5610 Audio Codec Compare [PCMU:0:8000:20:64000:1] ++++ is saved as a match
+b9ab7d6f-1f06-4f1a-a2ff-753f48de7402 2026-10-18 23:15:29.100797 99.47% [DEBUG] switch_core_media.c:5548 Audio Codec Compare [PCMU:0:8000:20:64000:1]/[PCMA:8:8000:20:64000:1]
+b9ab7d6f-1f06-4f1a-a2ff-753f48de7402 2026-10-18 23:15:29.100797 99.47% [DEBUG] switch_core_media.c:5460 Set telephone-event payload to 101@8000
+b9ab7d6f-1f06-4f1a-a2ff-753f48de7402 2026-10-18 23:15:29.100797 99.47% [DEBUG] switch_core_media.c:3745 Set Codec sofia/internal/1001@192.168.1.4 PCMA/8000 20 ms 160 samples 64000 bits 1 channels
+b9ab7d6f-1f06-4f1a-a2ff-753f48de7402 2026-10-18 23:15:29.100797 99.47% [DEBUG] switch_core_codec.c:132 sofia/internal/1001@192.168.1.4 Original read codec set to PCMA:8
+b9ab7d6f-1f06-4f1a-a2ff-753f48de7402 2026-10-18 23:15:29.100797 99.47% [DEBUG] switch_core_media.c:5820 Set telephone-event payload to 101@8000
+b9ab7d6f-1f06-4f1a-a2ff-753f48de7402 2026-10-18 23:15:29.100797 99.47% [DEBUG] switch_core_media.c:5878 sofia/internal/1001@192.168.1.4 Set 2833 dtmf send payload to 101 recv payload to 101
+b9ab7d6f-1f06-4f1a-a2ff-753f48de7402 2026-10-18 23:15:29.100797 99.47% [DEBUG] switch_core_media.c:8682 AUDIO RTP [sofia/internal/1001@192.168.1.4] 192.168.1.4 port 17078 -> 192.168.1.10 port 4056 codec: 8 ms: 20
+b9ab7d6f-1f06-4f1a-a2ff-753f48de7402 2026-10-18 23:15:29.100797 99.47% [DEBUG] switch_rtp.c:4692 Starting timer [soft] 160 bytes per 20ms
+b9ab7d6f-1f06-4f1a-a2ff-753f48de7402 2026-10-18 23:15:29.100797 99.47% [DEBUG] switch_core_media.c:8903 Activating RTCP PORT 4057
+b9ab7d6f-1f06-4f1a-a2ff-753f48de7402 2026-10-18 23:15:29.100797 99.47% [DEBUG] switch_rtp.c:5052 RTCP send rate is: 1000 and packet rate is: 20000 Remote Port: 4057
+b9ab7d6f-1f06-4f1a-a2ff-753f48de7402 2026-10-18 23:15:29.100797 99.47% [DEBUG] switch_rtp.c:2768 Setting RTCP remote addr to 192.168.1.10:4057 2
+b9ab7d6f-1f06-4f1a-a2ff-753f48de7402 2026-10-18 23:15:29.100797 99.47% [DEBUG] switch_core_media.c:8995 sofia/internal/1001@192.168.1.4 Set 2833 dtmf send payload to 101
+b9ab7d6f-1f06-4f1a-a2ff-753f48de7402 2026-10-18 23:15:29.100797 99.47% [DEBUG] switch_core_media.c:9002 sofia/internal/1001@192.168.1.4 Set 2833 dtmf receive payload to 101
+b9ab7d6f-1f06-4f1a-a2ff-753f48de7402 2026-10-18 23:15:29.100797 99.47% [DEBUG] switch_core_media.c:9025 sofia/internal/1001@192.168.1.4 Set rtp dtmf delay to 40
+b9ab7d6f-1f06-4f1a-a2ff-753f48de7402 2026-10-18 23:15:29.100797 99.47% [NOTICE] sofia_media.c:90 Pre-Answer sofia/internal/1001@192.168.1.4!
+b9ab7d6f-1f06-4f1a-a2ff-753f48de7402 2026-10-18 23:15:29.100797 99.47% [DEBUG] switch_channel.c:3587 (sofia/internal/1001@192.168.1.4) Callstate Change RINGING -> EARLY
+b9ab7d6f-1f06-4f1a-a2ff-753f48de7402 2026-10-18 23:15:29.100797 99.47% [DEBUG] switch_core_media.c:8664 Audio params are unchanged for sofia/internal/1001@192.168.1.4.
+b9ab7d6f-1f06-4f1a-a2ff-753f48de7402 2026-10-18 23:15:29.100797 99.47% [DEBUG] mod_sofia.c:937 Local SDP sofia/internal/1001@192.168.1.4:
+b9ab7d6f-1f06-4f1a-a2ff-753f48de7402 v=0
+b9ab7d6f-1f06-4f1a-a2ff-753f48de7402 o=FreeSWITCH 1792328451 1792328452 IN IP4 192.168.1.4
+b9ab7d6f-1f06-4f1a-a2ff-753f48de7402 s=FreeSWITCH
+b9ab7d6f-1f06-4f1a-a2ff-753f48de7402 c=IN IP4 192.168.1.4
+b9ab7d6f-1f06-4f1a-a2ff-753f48de7402 t=0 0
+b9ab7d6f-1f06-4f1a-a2ff-753f48de7402 m=audio 17078 RTP/AVP 8 101
+b9ab7d6f-1f06-4f1a-a2ff-753f48de7402 a=rtpmap:8 PCMA/8000
+b9ab7d6f-1f06-4f1a-a2ff-753f48de7402 a=rtpmap:101 telephone-event/8000
+b9ab7d6f-1f06-4f1a-a2ff-753f48de7402 a=fmtp:101 0-15
+b9ab7d6f-1f06-4f1a-a2ff-753f48de7402 a=ptime:20
+b9ab7d6f-1f06-4f1a-a2ff-753f48de7402 a=sendrecv
+b9ab7d6f-1f06-4f1a-a2ff-753f48de7402 a=rtcp:17079 IN IP4 192.168.1.4
+b9ab7d6f-1f06-4f1a-a2ff-753f48de7402 
+b9ab7d6f-1f06-4f1a-a2ff-753f48de7402 2026-10-18 23:15:29.100797 99.47% [NOTICE] mod_dptools.c:1406 Channel [sofia/internal/1001@192.168.1.4] has been answered
+send 1235 bytes to udp/[192.168.1.10]:53326 at 23:15:29.119237:
+------------------------------------------------------------------------
+SIP/2.0 200 OK
+Via: SIP/2.0/UDP 192.168.1.10:53326;rport=53326;branch=z9hG4bKPjc1a64bb8f3774c9fa431831cdf256796
+From: <sip:1001@192.168.1.4>;tag=dd3bb460178e4fa199efa00f669a357e
+To: <sip:1002@192.168.1.4>;tag=vKKcaS5mmyg4c
+Call-ID: f66994f47edc414bad2c344957b74745
+CSeq: 10092 INVITE
+Contact: <sip:1002@223.181.108.88:5060;transport=udp>
+User-Agent: FreeSWITCH-mod_sofia/1.11.3-release-33213556856-ef32e20529~64bit
+Accept: application/sdp
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, MESSAGE, INFO, UPDATE, REGISTER, REFER, NOTIFY, PUBLISH, SUBSCRIBE
+Require: timer
+Supported: timer, path, replaces
+Allow-Events: talk, hold, conference, presence, as-feature-event, dialog, line-seize, call-info, sla, include-session-description, presence.winfo, message-summary, refer
+Session-Expires: 1800;refresher=uac
+Content-Type: application/sdp
+Content-Disposition: session
+Content-Length: 251
+Remote-Party-ID: "1002" <sip:1002@192.168.1.4>;party=calling;privacy=off;screen=no
+
+v=0
+o=FreeSWITCH 1792328451 1792328452 IN IP4 192.168.1.4
+s=FreeSWITCH
+c=IN IP4 192.168.1.4
+t=0 0
+m=audio 17078 RTP/AVP 8 101
+a=rtpmap:8 PCMA/8000
+a=rtpmap:101 telephone-event/8000
+a=fmtp:101 0-15
+a=ptime:20
+a=rtcp:17079 IN IP4 192.168.1.4
+
+b9ab7d6f-1f06-4f1a-a2ff-753f48de7402 2026-10-18 23:15:29.100797 99.47% [DEBUG] switch_channel.c:3914 (sofia/internal/1001@192.168.1.4) Callstate Change EARLY -> ACTIVE
+b9ab7d6f-1f06-4f1a-a2ff-753f48de7402 2026-10-18 23:15:29.100797 99.47% [DEBUG] sofia.c:7511 Channel sofia/internal/1001@192.168.1.4 entering state [completed][200]
+b9ab7d6f-1f06-4f1a-a2ff-753f48de7402 EXECUTE [depth=0] sofia/internal/1001@192.168.1.4 playback(ivr/ivr-that_was_an_invalid_entry.wav)
+b9ab7d6f-1f06-4f1a-a2ff-753f48de7402 2026-10-18 23:15:29.100797 99.47% [DEBUG] switch_ivr_play_say.c:1564 Codec Activated L16@8000hz 1 channels 20ms
+b9ab7d6f-1f06-4f1a-a2ff-753f48de7402 2026-10-18 23:15:29.120816 99.47% [DEBUG] switch_rtp.c:7706 Correct audio RTCP ip/port confirmed.
+b9ab7d6f-1f06-4f1a-a2ff-753f48de7402 2026-10-18 23:15:29.120816 99.47% [DEBUG] switch_rtp.c:8258 Correct audio ip/port confirmed.
+b9ab7d6f-1f06-4f1a-a2ff-753f48de7402 2026-10-18 23:15:29.140824 99.47% [DEBUG] switch_rtp.c:2010 rtcp_stats_init: audio ssrc[1406158308] base_seq[28076]
+send 1235 bytes to udp/[192.168.1.10]:53326 at 23:15:29.618812:
+------------------------------------------------------------------------
+SIP/2.0 200 OK
+Via: SIP/2.0/UDP 192.168.1.10:53326;rport=53326;branch=z9hG4bKPjc1a64bb8f3774c9fa431831cdf256796
+From: <sip:1001@192.168.1.4>;tag=dd3bb460178e4fa199efa00f669a357e
+To: <sip:1002@192.168.1.4>;tag=vKKcaS5mmyg4c
+Call-ID: f66994f47edc414bad2c344957b74745
+CSeq: 10092 INVITE
+Contact: <sip:1002@223.181.108.88:5060;transport=udp>
+User-Agent: FreeSWITCH-mod_sofia/1.11.3-release-33213556856-ef32e20529~64bit
+Accept: application/sdp
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, MESSAGE, INFO, UPDATE, REGISTER, REFER, NOTIFY, PUBLISH, SUBSCRIBE
+Require: timer
+Supported: timer, path, replaces
+Allow-Events: talk, hold, conference, presence, as-feature-event, dialog, line-seize, call-info, sla, include-session-description, presence.winfo, message-summary, refer
+Session-Expires: 1800;refresher=uac
+Content-Type: application/sdp
+Content-Disposition: session
+Content-Length: 251
+Remote-Party-ID: "1002" <sip:1002@192.168.1.4>;party=calling;privacy=off;screen=no
+
+v=0
+o=FreeSWITCH 1792328451 1792328452 IN IP4 192.168.1.4
+s=FreeSWITCH
+c=IN IP4 192.168.1.4
+t=0 0
+m=audio 17078 RTP/AVP 8 101
+a=rtpmap:8 PCMA/8000
+a=rtpmap:101 telephone-event/8000
+a=fmtp:101 0-15
+a=ptime:20
+a=rtcp:17079 IN IP4 192.168.1.4
+
+send 1235 bytes to udp/[192.168.1.10]:53326 at 23:15:30.618823:
+------------------------------------------------------------------------
+SIP/2.0 200 OK
+Via: SIP/2.0/UDP 192.168.1.10:53326;rport=53326;branch=z9hG4bKPjc1a64bb8f3774c9fa431831cdf256796
+From: <sip:1001@192.168.1.4>;tag=dd3bb460178e4fa199efa00f669a357e
+To: <sip:1002@192.168.1.4>;tag=vKKcaS5mmyg4c
+Call-ID: f66994f47edc414bad2c344957b74745
+CSeq: 10092 INVITE
+Contact: <sip:1002@223.181.108.88:5060;transport=udp>
+User-Agent: FreeSWITCH-mod_sofia/1.11.3-release-33213556856-ef32e20529~64bit
+Accept: application/sdp
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, MESSAGE, INFO, UPDATE, REGISTER, REFER, NOTIFY, PUBLISH, SUBSCRIBE
+Require: timer
+Supported: timer, path, replaces
+Allow-Events: talk, hold, conference, presence, as-feature-event, dialog, line-seize, call-info, sla, include-session-description, presence.winfo, message-summary, refer
+Session-Expires: 1800;refresher=uac
+Content-Type: application/sdp
+Content-Disposition: session
+Content-Length: 251
+Remote-Party-ID: "1002" <sip:1002@192.168.1.4>;party=calling;privacy=off;screen=no
+
+v=0
+o=FreeSWITCH 1792328451 1792328452 IN IP4 192.168.1.4
+s=FreeSWITCH
+c=IN IP4 192.168.1.4
+t=0 0
+m=audio 17078 RTP/AVP 8 101
+a=rtpmap:8 PCMA/8000
+a=rtpmap:101 telephone-event/8000
+a=fmtp:101 0-15
+a=ptime:20
+a=rtcp:17079 IN IP4 192.168.1.4
+
+b9ab7d6f-1f06-4f1a-a2ff-753f48de7402 2026-10-18 23:15:30.760977 99.40% [DEBUG] switch_ivr_play_say.c:2013 done playing file /usr/share/freeswitch/sounds/en/us/callie/ivr/ivr-that_was_an_invalid_entry.wav
+b9ab7d6f-1f06-4f1a-a2ff-753f48de7402 EXECUTE [depth=0] sofia/internal/1001@192.168.1.4 hangup(UNALLOCATED_NUMBER)
+b9ab7d6f-1f06-4f1a-a2ff-753f48de7402 2026-10-18 23:15:30.760977 99.40% [NOTICE] mod_dptools.c:1374 Hangup sofia/internal/1001@192.168.1.4 [CS_EXECUTE] [UNALLOCATED_NUMBER]
+b9ab7d6f-1f06-4f1a-a2ff-753f48de7402 2026-10-18 23:15:30.760977 99.40% [DEBUG] switch_core_session.c:2984 sofia/internal/1001@192.168.1.4 skip receive message [APPLICATION_EXEC_COMPLETE] (channel is hungup already)
+b9ab7d6f-1f06-4f1a-a2ff-753f48de7402 2026-10-18 23:15:30.760977 99.40% [DEBUG] switch_core_state_machine.c:647 (sofia/internal/1001@192.168.1.4) State EXECUTE going to sleep
+b9ab7d6f-1f06-4f1a-a2ff-753f48de7402 2026-10-18 23:15:30.760977 99.40% [DEBUG] switch_core_state_machine.c:581 (sofia/internal/1001@192.168.1.4) Running State Change CS_HANGUP (Cur 1 Tot 48)
+b9ab7d6f-1f06-4f1a-a2ff-753f48de7402 2026-10-18 23:15:30.760977 99.40% [DEBUG] switch_core_state_machine.c:844 (sofia/internal/1001@192.168.1.4) Callstate Change ACTIVE -> HANGUP
+b9ab7d6f-1f06-4f1a-a2ff-753f48de7402 2026-10-18 23:15:30.760977 99.40% [DEBUG] switch_core_state_machine.c:846 (sofia/internal/1001@192.168.1.4) State HANGUP
+b9ab7d6f-1f06-4f1a-a2ff-753f48de7402 2026-10-18 23:15:30.760977 99.40% [DEBUG] mod_sofia.c:469 Channel sofia/internal/1001@192.168.1.4 hanging up, cause: UNALLOCATED_NUMBER
+b9ab7d6f-1f06-4f1a-a2ff-753f48de7402 2026-10-18 23:15:30.760977 99.40% [DEBUG] mod_sofia.c:541 Sending BYE to sofia/internal/1001@192.168.1.4
+b9ab7d6f-1f06-4f1a-a2ff-753f48de7402 2026-10-18 23:15:30.760977 99.40% [DEBUG] switch_core_state_machine.c:59 sofia/internal/1001@192.168.1.4 Standard HANGUP, cause: UNALLOCATED_NUMBER
+b9ab7d6f-1f06-4f1a-a2ff-753f48de7402 2026-10-18 23:15:30.760977 99.40% [DEBUG] switch_core_state_machine.c:846 (sofia/internal/1001@192.168.1.4) State HANGUP going to sleep
+b9ab7d6f-1f06-4f1a-a2ff-753f48de7402 2026-10-18 23:15:30.760977 99.40% [DEBUG] switch_core_state_machine.c:616 (sofia/internal/1001@192.168.1.4) State Change CS_HANGUP -> CS_REPORTING
+send 598 bytes to udp/[192.168.1.10]:53326 at 23:15:30.777923:
+------------------------------------------------------------------------
+BYE sip:1001@192.168.1.10:53326;ob SIP/2.0
+Via: SIP/2.0/UDP 223.181.108.88;rport;branch=z9hG4bKBQHyX7pNN09gr
+Max-Forwards: 70
+From: <sip:1002@192.168.1.4>;tag=vKKcaS5mmyg4c
+To: <sip:1001@192.168.1.4>;tag=dd3bb460178e4fa199efa00f669a357e
+Call-ID: f66994f47edc414bad2c344957b74745
+CSeq: 121618973 BYE
+User-Agent: FreeSWITCH-mod_sofia/1.11.3-release-33213556856-ef32e20529~64bit
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, MESSAGE, INFO, UPDATE, REGISTER, REFER, NOTIFY, PUBLISH, SUBSCRIBE
+Supported: timer, path, replaces
+Reason: Q.850;cause=1;text="UNALLOCATED_NUMBER"
+Content-Length: 0
+
+
+b9ab7d6f-1f06-4f1a-a2ff-753f48de7402 2026-10-18 23:15:30.760977 99.40% [DEBUG] switch_core_state_machine.c:581 (sofia/internal/1001@192.168.1.4) Running State Change CS_REPORTING (Cur 1 Tot 48)
+b9ab7d6f-1f06-4f1a-a2ff-753f48de7402 2026-10-18 23:15:30.760977 99.40% [DEBUG] switch_core_state_machine.c:932 (sofia/internal/1001@192.168.1.4) State REPORTING
+b9ab7d6f-1f06-4f1a-a2ff-753f48de7402 2026-10-18 23:15:30.760977 99.40% [DEBUG] switch_core_state_machine.c:168 sofia/internal/1001@192.168.1.4 Standard REPORTING, cause: UNALLOCATED_NUMBER
+b9ab7d6f-1f06-4f1a-a2ff-753f48de7402 2026-10-18 23:15:30.760977 99.40% [DEBUG] switch_core_state_machine.c:932 (sofia/internal/1001@192.168.1.4) State REPORTING going to sleep
+recv 308 bytes from udp/[192.168.1.10]:53326 at 23:15:30.778330:
+------------------------------------------------------------------------
+SIP/2.0 200 OK
+Via: SIP/2.0/UDP 223.181.108.88;rport=5060;received=192.168.1.4;branch=z9hG4bKBQHyX7pNN09gr
+Call-ID: f66994f47edc414bad2c344957b74745
+From: <sip:1002@192.168.1.4>;tag=vKKcaS5mmyg4c
+To: <sip:1001@192.168.1.4>;tag=dd3bb460178e4fa199efa00f669a357e
+CSeq: 121618973 BYE
+Content-Length:  0
+
+
+b9ab7d6f-1f06-4f1a-a2ff-753f48de7402 2026-10-18 23:15:30.760977 99.40% [DEBUG] switch_core_state_machine.c:607 (sofia/internal/1001@192.168.1.4) State Change CS_REPORTING -> CS_DESTROY
+b9ab7d6f-1f06-4f1a-a2ff-753f48de7402 2026-10-18 23:15:30.760977 99.40% [DEBUG] switch_core_session.c:1748 Session 48 (sofia/internal/1001@192.168.1.4) Locked, Waiting on external entities
+b9ab7d6f-1f06-4f1a-a2ff-753f48de7402 2026-10-18 23:15:30.760977 99.40% [NOTICE] switch_core_session.c:1766 Session 48 (sofia/internal/1001@192.168.1.4) Ended
+b9ab7d6f-1f06-4f1a-a2ff-753f48de7402 2026-10-18 23:15:30.760977 99.40% [NOTICE] switch_core_session.c:1770 Close Channel sofia/internal/1001@192.168.1.4 [CS_DESTROY]
+b9ab7d6f-1f06-4f1a-a2ff-753f48de7402 2026-10-18 23:15:30.760977 99.40% [DEBUG] switch_core_state_machine.c:735 (sofia/internal/1001@192.168.1.4) Running State Change CS_DESTROY (Cur 0 Tot 48)
+b9ab7d6f-1f06-4f1a-a2ff-753f48de7402 2026-10-18 23:15:30.760977 99.40% [DEBUG] switch_core_state_machine.c:745 (sofia/internal/1001@192.168.1.4) State DESTROY
+b9ab7d6f-1f06-4f1a-a2ff-753f48de7402 2026-10-18 23:15:30.760977 99.40% [DEBUG] mod_sofia.c:380 sofia/internal/1001@192.168.1.4 SOFIA DESTROY
+b9ab7d6f-1f06-4f1a-a2ff-753f48de7402 2026-10-18 23:15:30.760977 99.40% [DEBUG] switch_core_state_machine.c:175 sofia/internal/1001@192.168.1.4 Standard DESTROY
+b9ab7d6f-1f06-4f1a-a2ff-753f48de7402 2026-10-18 23:15:30.760977 99.40% [DEBUG] switch_core_state_machine.c:745 (sofia/internal/1001@192.168.1.4) State DESTROY going to sleep
+send 1235 bytes to udp/[192.168.1.10]:53326 at 23:15:32.619066:
+------------------------------------------------------------------------
+SIP/2.0 200 OK
+Via: SIP/2.0/UDP 192.168.1.10:53326;rport=53326;branch=z9hG4bKPjc1a64bb8f3774c9fa431831cdf256796
+From: <sip:1001@192.168.1.4>;tag=dd3bb460178e4fa199efa00f669a357e
+To: <sip:1002@192.168.1.4>;tag=vKKcaS5mmyg4c
+Call-ID: f66994f47edc414bad2c344957b74745
+CSeq: 10092 INVITE
+Contact: <sip:1002@223.181.108.88:5060;transport=udp>
+User-Agent: FreeSWITCH-mod_sofia/1.11.3-release-33213556856-ef32e20529~64bit
+Accept: application/sdp
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, MESSAGE, INFO, UPDATE, REGISTER, REFER, NOTIFY, PUBLISH, SUBSCRIBE
+Require: timer
+Supported: timer, path, replaces
+Allow-Events: talk, hold, conference, presence, as-feature-event, dialog, line-seize, call-info, sla, include-session-description, presence.winfo, message-summary, refer
+Session-Expires: 1800;refresher=uac
+Content-Type: application/sdp
+Content-Disposition: session
+Content-Length: 251
+Remote-Party-ID: "1002" <sip:1002@192.168.1.4>;party=calling;privacy=off;screen=no
+
+v=0
+o=FreeSWITCH 1792328451 1792328452 IN IP4 192.168.1.4
+s=FreeSWITCH
+c=IN IP4 192.168.1.4
+t=0 0
+m=audio 17078 RTP/AVP 8 101
+a=rtpmap:8 PCMA/8000
+a=rtpmap:101 telephone-event/8000
+a=fmtp:101 0-15
+a=ptime:20
+a=rtcp:17079 IN IP4 192.168.1.4
+
+recv 955 bytes from udp/[192.168.1.10]:53326 at 23:15:34.471192:
+------------------------------------------------------------------------
+INVITE sip:9196@192.168.1.4 SIP/2.0
+Via: SIP/2.0/UDP 192.168.1.10:53326;rport;branch=z9hG4bKPj26f37950d4f640d7bad11256b04761f9
+Max-Forwards: 70
+From: <sip:1001@192.168.1.4>;tag=4997d42395fc4b68b344d04729949100
+To: <sip:9196@192.168.1.4>
+Contact: <sip:1001@192.168.1.10:53326;ob>
+Call-ID: bc6ba904789e492f9f51d55637dc638a
+CSeq: 28758 INVITE
+Allow: PRACK, INVITE, ACK, BYE, CANCEL, UPDATE, INFO, SUBSCRIBE, NOTIFY, REFER, MESSAGE, OPTIONS
+Supported: replaces, 100rel, timer, norefersub
+Session-Expires: 1800
+Min-SE: 90
+User-Agent: MicroSIP/3.22.16
+Content-Type: application/sdp
+Content-Length:   340
+
+v=0
+o=- 4001354134 4001354134 IN IP4 192.168.1.10
+s=pjmedia
+b=AS:84
+t=0 0
+a=X-nat:0
+m=audio 4058 RTP/AVP 8 0 101
+c=IN IP4 192.168.1.10
+b=TIAS:64000
+a=rtcp:4059 IN IP4 192.168.1.10
+a=sendrecv
+a=rtpmap:8 PCMA/8000
+a=rtpmap:0 PCMU/8000
+a=rtpmap:101 telephone-event/8000
+a=fmtp:101 0-16
+a=ssrc:1092564952 cname:3ae118e50cff1b76
+
+1cefadbd-542a-42e4-b13b-2ce1dbef4cd8 2026-10-18 23:15:34.460968 99.37% [NOTICE] switch_channel.c:1143 New Channel sofia/internal/1001@192.168.1.4 [1cefadbd-542a-42e4-b13b-2ce1dbef4cd8]
+1cefadbd-542a-42e4-b13b-2ce1dbef4cd8 2026-10-18 23:15:34.460968 99.37% [DEBUG] switch_core_state_machine.c:581 (sofia/internal/1001@192.168.1.4) Running State Change CS_NEW (Cur 1 Tot 49)
+1cefadbd-542a-42e4-b13b-2ce1dbef4cd8 2026-10-18 23:15:34.460968 99.37% [INFO] sofia.c:10478 sofia/internal/1001@192.168.1.4 receiving invite from 192.168.1.10:53326 version: 1.11.3 -release-33213556856-ef32e20529 64bit call-id: bc6ba904789e492f9f51d55637dc638a
+2026-10-18 23:15:34.460968 99.37% [DEBUG] sofia.c:10572 verifying acl "domains" for ip/port 192.168.1.10:0.
+1cefadbd-542a-42e4-b13b-2ce1dbef4cd8 2026-10-18 23:15:34.460968 99.37% [DEBUG] switch_core_state_machine.c:600 (sofia/internal/1001@192.168.1.4) State NEW
+send 877 bytes to udp/[192.168.1.10]:53326 at 23:15:34.472289:
+------------------------------------------------------------------------
+SIP/2.0 407 Proxy Authentication Required
+Via: SIP/2.0/UDP 192.168.1.10:53326;rport=53326;branch=z9hG4bKPj26f37950d4f640d7bad11256b04761f9
+From: <sip:1001@192.168.1.4>;tag=4997d42395fc4b68b344d04729949100
+To: <sip:9196@192.168.1.4>;tag=Xvc5BmprH76pr
+Call-ID: bc6ba904789e492f9f51d55637dc638a
+CSeq: 28758 INVITE
+User-Agent: FreeSWITCH-mod_sofia/1.11.3-release-33213556856-ef32e20529~64bit
+Accept: application/sdp
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, MESSAGE, INFO, UPDATE, REGISTER, REFER, NOTIFY, PUBLISH, SUBSCRIBE
+Supported: timer, path, replaces
+Allow-Events: talk, hold, conference, presence, as-feature-event, dialog, line-seize, call-info, sla, include-session-description, presence.winfo, message-summary, refer
+Proxy-Authenticate: Digest realm="192.168.1.4", nonce="9cf78f54-1acb-40c3-9f42-f7329bba52d5", algorithm=MD5, qop="auth"
+Content-Length: 0
+
+
+2026-10-18 23:15:34.460968 99.37% [DEBUG] sofia.c:2408 detaching session 1cefadbd-542a-42e4-b13b-2ce1dbef4cd8
+recv 339 bytes from udp/[192.168.1.10]:53326 at 23:15:34.472779:
+------------------------------------------------------------------------
+ACK sip:9196@192.168.1.4 SIP/2.0
+Via: SIP/2.0/UDP 192.168.1.10:53326;rport;branch=z9hG4bKPj26f37950d4f640d7bad11256b04761f9
+Max-Forwards: 70
+From: <sip:1001@192.168.1.4>;tag=4997d42395fc4b68b344d04729949100
+To: <sip:9196@192.168.1.4>;tag=Xvc5BmprH76pr
+Call-ID: bc6ba904789e492f9f51d55637dc638a
+CSeq: 28758 ACK
+Content-Length:  0
+
+
+recv 1221 bytes from udp/[192.168.1.10]:53326 at 23:15:34.472938:
+------------------------------------------------------------------------
+INVITE sip:9196@192.168.1.4 SIP/2.0
+Via: SIP/2.0/UDP 192.168.1.10:53326;rport;branch=z9hG4bKPj368091650b5f46adb33fc14f7e9fcaaa
+Max-Forwards: 70
+From: <sip:1001@192.168.1.4>;tag=4997d42395fc4b68b344d04729949100
+To: <sip:9196@192.168.1.4>
+Contact: <sip:1001@192.168.1.10:53326;ob>
+Call-ID: bc6ba904789e492f9f51d55637dc638a
+CSeq: 28759 INVITE
+Allow: PRACK, INVITE, ACK, BYE, CANCEL, UPDATE, INFO, SUBSCRIBE, NOTIFY, REFER, MESSAGE, OPTIONS
+Supported: replaces, 100rel, timer, norefersub
+Session-Expires: 1800
+Min-SE: 90
+User-Agent: MicroSIP/3.22.16
+Proxy-Authorization: Digest username="1001", realm="192.168.1.4", nonce="9cf78f54-1acb-40c3-9f42-f7329bba52d5", uri="sip:9196@192.168.1.4", response="48d99df328e5bc8316b24fe18585fbe8", algorithm=MD5, cnonce="1e308e7f1d6e4b1a887262b1e6192472", qop=auth, nc=00000001
+Content-Type: application/sdp
+Content-Length:   340
+
+v=0
+o=- 4001354134 4001354134 IN IP4 192.168.1.10
+s=pjmedia
+b=AS:84
+t=0 0
+a=X-nat:0
+m=audio 4058 RTP/AVP 8 0 101
+c=IN IP4 192.168.1.10
+b=TIAS:64000
+a=rtcp:4059 IN IP4 192.168.1.10
+a=sendrecv
+a=rtpmap:8 PCMA/8000
+a=rtpmap:0 PCMU/8000
+a=rtpmap:101 telephone-event/8000
+a=fmtp:101 0-16
+a=ssrc:1092564952 cname:3ae118e50cff1b76
+
+2026-10-18 23:15:34.460968 99.37% [DEBUG] sofia.c:2523 Re-attaching to session 1cefadbd-542a-42e4-b13b-2ce1dbef4cd8
+1cefadbd-542a-42e4-b13b-2ce1dbef4cd8 2026-10-18 23:15:34.480884 99.37% [INFO] sofia.c:10478 sofia/internal/1001@192.168.1.4 receiving invite from 192.168.1.10:53326 version: 1.11.3 -release-33213556856-ef32e20529 64bit call-id: bc6ba904789e492f9f51d55637dc638a
+2026-10-18 23:15:34.480884 99.37% [DEBUG] sofia.c:10572 verifying acl "domains" for ip/port 192.168.1.10:0.
+1cefadbd-542a-42e4-b13b-2ce1dbef4cd8 2026-10-18 23:15:34.480884 99.37% [DEBUG] sofia.c:7511 Channel sofia/internal/1001@192.168.1.4 entering state [received][100]
+1cefadbd-542a-42e4-b13b-2ce1dbef4cd8 2026-10-18 23:15:34.480884 99.37% [DEBUG] sofia.c:7521 Remote SDP:
+1cefadbd-542a-42e4-b13b-2ce1dbef4cd8 v=0
+1cefadbd-542a-42e4-b13b-2ce1dbef4cd8 o=- 4001354134 4001354134 IN IP4 192.168.1.10
+1cefadbd-542a-42e4-b13b-2ce1dbef4cd8 s=pjmedia
+1cefadbd-542a-42e4-b13b-2ce1dbef4cd8 b=AS:84
+1cefadbd-542a-42e4-b13b-2ce1dbef4cd8 t=0 0
+1cefadbd-542a-42e4-b13b-2ce1dbef4cd8 a=X-nat:0
+1cefadbd-542a-42e4-b13b-2ce1dbef4cd8 m=audio 4058 RTP/AVP 8 0 101
+1cefadbd-542a-42e4-b13b-2ce1dbef4cd8 c=IN IP4 192.168.1.10
+1cefadbd-542a-42e4-b13b-2ce1dbef4cd8 b=TIAS:64000
+1cefadbd-542a-42e4-b13b-2ce1dbef4cd8 a=rtpmap:8 PCMA/8000
+1cefadbd-542a-42e4-b13b-2ce1dbef4cd8 a=rtpmap:0 PCMU/8000
+1cefadbd-542a-42e4-b13b-2ce1dbef4cd8 a=rtpmap:101 telephone-event/8000
+1cefadbd-542a-42e4-b13b-2ce1dbef4cd8 a=fmtp:101 0-16
+1cefadbd-542a-42e4-b13b-2ce1dbef4cd8 a=rtcp:4059 IN IP4 192.168.1.10
+1cefadbd-542a-42e4-b13b-2ce1dbef4cd8 a=ssrc:1092564952 cname:3ae118e50cff1b76
+1cefadbd-542a-42e4-b13b-2ce1dbef4cd8 
+1cefadbd-542a-42e4-b13b-2ce1dbef4cd8 2026-10-18 23:15:34.480884 99.37% [DEBUG] sofia.c:7924 (sofia/internal/1001@192.168.1.4) State Change CS_NEW -> CS_INIT
+1cefadbd-542a-42e4-b13b-2ce1dbef4cd8 2026-10-18 23:15:34.480884 99.37% [DEBUG] switch_core_state_machine.c:581 (sofia/internal/1001@192.168.1.4) Running State Change CS_INIT (Cur 1 Tot 49)
+1cefadbd-542a-42e4-b13b-2ce1dbef4cd8 2026-10-18 23:15:34.480884 99.37% [DEBUG] switch_core_state_machine.c:624 (sofia/internal/1001@192.168.1.4) State INIT
+1cefadbd-542a-42e4-b13b-2ce1dbef4cd8 2026-10-18 23:15:34.480884 99.37% [DEBUG] mod_sofia.c:97 sofia/internal/1001@192.168.1.4 SOFIA INIT
+1cefadbd-542a-42e4-b13b-2ce1dbef4cd8 2026-10-18 23:15:34.480884 99.37% [DEBUG] switch_core_state_machine.c:40 sofia/internal/1001@192.168.1.4 Standard INIT
+1cefadbd-542a-42e4-b13b-2ce1dbef4cd8 2026-10-18 23:15:34.480884 99.37% [DEBUG] switch_core_state_machine.c:48 (sofia/internal/1001@192.168.1.4) State Change CS_INIT -> CS_ROUTING
+1cefadbd-542a-42e4-b13b-2ce1dbef4cd8 2026-10-18 23:15:34.480884 99.37% [DEBUG] switch_core_state_machine.c:624 (sofia/internal/1001@192.168.1.4) State INIT going to sleep
+1cefadbd-542a-42e4-b13b-2ce1dbef4cd8 2026-10-18 23:15:34.480884 99.37% [DEBUG] switch_core_state_machine.c:581 (sofia/internal/1001@192.168.1.4) Running State Change CS_ROUTING (Cur 1 Tot 49)
+1cefadbd-542a-42e4-b13b-2ce1dbef4cd8 2026-10-18 23:15:34.480884 99.37% [DEBUG] switch_channel.c:2400 (sofia/internal/1001@192.168.1.4) Callstate Change DOWN -> RINGING
+1cefadbd-542a-42e4-b13b-2ce1dbef4cd8 2026-10-18 23:15:34.480884 99.37% [DEBUG] switch_core_state_machine.c:640 (sofia/internal/1001@192.168.1.4) State ROUTING
+1cefadbd-542a-42e4-b13b-2ce1dbef4cd8 2026-10-18 23:15:34.480884 99.37% [DEBUG] mod_sofia.c:158 sofia/internal/1001@192.168.1.4 SOFIA ROUTING
+1cefadbd-542a-42e4-b13b-2ce1dbef4cd8 2026-10-18 23:15:34.480884 99.37% [DEBUG] switch_core_state_machine.c:230 sofia/internal/1001@192.168.1.4 Standard ROUTING
+1cefadbd-542a-42e4-b13b-2ce1dbef4cd8 2026-10-18 23:15:34.480884 99.37% [INFO] mod_dialplan_xml.c:648 Processing 1001 <1001>->9196 in context default
+send 375 bytes to udp/[192.168.1.10]:53326 at 23:15:34.494477:
+------------------------------------------------------------------------
+SIP/2.0 100 Trying
+Via: SIP/2.0/UDP 192.168.1.10:53326;rport=53326;branch=z9hG4bKPj368091650b5f46adb33fc14f7e9fcaaa
+From: <sip:1001@192.168.1.4>;tag=4997d42395fc4b68b344d04729949100
+To: <sip:9196@192.168.1.4>
+Call-ID: bc6ba904789e492f9f51d55637dc638a
+CSeq: 28759 INVITE
+User-Agent: FreeSWITCH-mod_sofia/1.11.3-release-33213556856-ef32e20529~64bit
+Content-Length: 0
+
+
+1cefadbd-542a-42e4-b13b-2ce1dbef4cd8 Dialplan: sofia/internal/1001@192.168.1.4 parsing [default->broken_catchall] continue=false
+1cefadbd-542a-42e4-b13b-2ce1dbef4cd8 Dialplan: sofia/internal/1001@192.168.1.4 Regex (PASS) [broken_catchall] destination_number(9196) =~ /^.*$/ break=on-false
+1cefadbd-542a-42e4-b13b-2ce1dbef4cd8 Dialplan: sofia/internal/1001@192.168.1.4 Action log(ERR [FAULT] broken_catchall swallowed ${destination_number})
+1cefadbd-542a-42e4-b13b-2ce1dbef4cd8 Dialplan: sofia/internal/1001@192.168.1.4 Action answer()
+1cefadbd-542a-42e4-b13b-2ce1dbef4cd8 Dialplan: sofia/internal/1001@192.168.1.4 Action playback(ivr/ivr-that_was_an_invalid_entry.wav)
+1cefadbd-542a-42e4-b13b-2ce1dbef4cd8 Dialplan: sofia/internal/1001@192.168.1.4 Action hangup(UNALLOCATED_NUMBER)
+1cefadbd-542a-42e4-b13b-2ce1dbef4cd8 2026-10-18 23:15:34.480884 99.37% [DEBUG] switch_core_state_machine.c:281 (sofia/internal/1001@192.168.1.4) State Change CS_ROUTING -> CS_EXECUTE
+1cefadbd-542a-42e4-b13b-2ce1dbef4cd8 2026-10-18 23:15:34.480884 99.37% [DEBUG] switch_core_state_machine.c:640 (sofia/internal/1001@192.168.1.4) State ROUTING going to sleep
+1cefadbd-542a-42e4-b13b-2ce1dbef4cd8 2026-10-18 23:15:34.480884 99.37% [DEBUG] switch_core_state_machine.c:581 (sofia/internal/1001@192.168.1.4) Running State Change CS_EXECUTE (Cur 1 Tot 49)
+1cefadbd-542a-42e4-b13b-2ce1dbef4cd8 2026-10-18 23:15:34.480884 99.37% [DEBUG] switch_core_state_machine.c:647 (sofia/internal/1001@192.168.1.4) State EXECUTE
+1cefadbd-542a-42e4-b13b-2ce1dbef4cd8 2026-10-18 23:15:34.480884 99.37% [DEBUG] mod_sofia.c:213 sofia/internal/1001@192.168.1.4 SOFIA EXECUTE
+1cefadbd-542a-42e4-b13b-2ce1dbef4cd8 2026-10-18 23:15:34.480884 99.37% [DEBUG] switch_core_state_machine.c:323 sofia/internal/1001@192.168.1.4 Standard EXECUTE
+1cefadbd-542a-42e4-b13b-2ce1dbef4cd8 EXECUTE [depth=0] sofia/internal/1001@192.168.1.4 log(ERR [FAULT] broken_catchall swallowed 9196)
+1cefadbd-542a-42e4-b13b-2ce1dbef4cd8 2026-10-18 23:15:34.480884 99.37% [ERR] mod_dptools.c:1865 [FAULT] broken_catchall swallowed 9196
+1cefadbd-542a-42e4-b13b-2ce1dbef4cd8 EXECUTE [depth=0] sofia/internal/1001@192.168.1.4 answer()
+1cefadbd-542a-42e4-b13b-2ce1dbef4cd8 2026-10-18 23:15:34.480884 99.37% [DEBUG] switch_core_media.c:5548 Audio Codec Compare [PCMA:8:8000:20:64000:1]/[G722:9:8000:20:64000:1]
+1cefadbd-542a-42e4-b13b-2ce1dbef4cd8 2026-10-18 23:15:34.480884 99.37% [DEBUG] switch_core_media.c:5548 Audio Codec Compare [PCMA:8:8000:20:64000:1]/[PCMU:0:8000:20:64000:1]
+1cefadbd-542a-42e4-b13b-2ce1dbef4cd8 2026-10-18 23:15:34.480884 99.37% [DEBUG] switch_core_media.c:5548 Audio Codec Compare [PCMA:8:8000:20:64000:1]/[PCMA:8:8000:20:64000:1]
+1cefadbd-542a-42e4-b13b-2ce1dbef4cd8 2026-10-18 23:15:34.480884 99.37% [DEBUG] switch_core_media.c:5610 Audio Codec Compare [PCMA:8:8000:20:64000:1] ++++ is saved as a match
+1cefadbd-542a-42e4-b13b-2ce1dbef4cd8 2026-10-18 23:15:34.480884 99.37% [DEBUG] switch_core_media.c:5548 Audio Codec Compare [PCMU:0:8000:20:64000:1]/[G722:9:8000:20:64000:1]
+1cefadbd-542a-42e4-b13b-2ce1dbef4cd8 2026-10-18 23:15:34.480884 99.37% [DEBUG] switch_core_media.c:5548 Audio Codec Compare [PCMU:0:8000:20:64000:1]/[PCMU:0:8000:20:64000:1]
+1cefadbd-542a-42e4-b13b-2ce1dbef4cd8 2026-10-18 23:15:34.480884 99.37% [DEBUG] switch_core_media.c:5610 Audio Codec Compare [PCMU:0:8000:20:64000:1] ++++ is saved as a match
+1cefadbd-542a-42e4-b13b-2ce1dbef4cd8 2026-10-18 23:15:34.480884 99.37% [DEBUG] switch_core_media.c:5548 Audio Codec Compare [PCMU:0:8000:20:64000:1]/[PCMA:8:8000:20:64000:1]
+1cefadbd-542a-42e4-b13b-2ce1dbef4cd8 2026-10-18 23:15:34.480884 99.37% [DEBUG] switch_core_media.c:5460 Set telephone-event payload to 101@8000
+1cefadbd-542a-42e4-b13b-2ce1dbef4cd8 2026-10-18 23:15:34.480884 99.37% [DEBUG] switch_core_media.c:3745 Set Codec sofia/internal/1001@192.168.1.4 PCMA/8000 20 ms 160 samples 64000 bits 1 channels
+1cefadbd-542a-42e4-b13b-2ce1dbef4cd8 2026-10-18 23:15:34.480884 99.37% [DEBUG] switch_core_codec.c:132 sofia/internal/1001@192.168.1.4 Original read codec set to PCMA:8
+1cefadbd-542a-42e4-b13b-2ce1dbef4cd8 2026-10-18 23:15:34.480884 99.37% [DEBUG] switch_core_media.c:5820 Set telephone-event payload to 101@8000
+1cefadbd-542a-42e4-b13b-2ce1dbef4cd8 2026-10-18 23:15:34.480884 99.37% [DEBUG] switch_core_media.c:5878 sofia/internal/1001@192.168.1.4 Set 2833 dtmf send payload to 101 recv payload to 101
+1cefadbd-542a-42e4-b13b-2ce1dbef4cd8 2026-10-18 23:15:34.480884 99.37% [DEBUG] switch_core_media.c:8682 AUDIO RTP [sofia/internal/1001@192.168.1.4] 192.168.1.4 port 30698 -> 192.168.1.10 port 4058 codec: 8 ms: 20
+1cefadbd-542a-42e4-b13b-2ce1dbef4cd8 2026-10-18 23:15:34.480884 99.37% [DEBUG] switch_rtp.c:4692 Starting timer [soft] 160 bytes per 20ms
+1cefadbd-542a-42e4-b13b-2ce1dbef4cd8 2026-10-18 23:15:34.480884 99.37% [DEBUG] switch_core_media.c:8903 Activating RTCP PORT 4059
+1cefadbd-542a-42e4-b13b-2ce1dbef4cd8 2026-10-18 23:15:34.480884 99.37% [DEBUG] switch_rtp.c:5052 RTCP send rate is: 1000 and packet rate is: 20000 Remote Port: 4059
+1cefadbd-542a-42e4-b13b-2ce1dbef4cd8 2026-10-18 23:15:34.480884 99.37% [DEBUG] switch_rtp.c:2768 Setting RTCP remote addr to 192.168.1.10:4059 2
+1cefadbd-542a-42e4-b13b-2ce1dbef4cd8 2026-10-18 23:15:34.480884 99.37% [DEBUG] switch_core_media.c:8995 sofia/internal/1001@192.168.1.4 Set 2833 dtmf send payload to 101
+1cefadbd-542a-42e4-b13b-2ce1dbef4cd8 2026-10-18 23:15:34.480884 99.37% [DEBUG] switch_core_media.c:9002 sofia/internal/1001@192.168.1.4 Set 2833 dtmf receive payload to 101
+1cefadbd-542a-42e4-b13b-2ce1dbef4cd8 2026-10-18 23:15:34.480884 99.37% [DEBUG] switch_core_media.c:9025 sofia/internal/1001@192.168.1.4 Set rtp dtmf delay to 40
+1cefadbd-542a-42e4-b13b-2ce1dbef4cd8 2026-10-18 23:15:34.480884 99.37% [NOTICE] sofia_media.c:90 Pre-Answer sofia/internal/1001@192.168.1.4!
+1cefadbd-542a-42e4-b13b-2ce1dbef4cd8 2026-10-18 23:15:34.480884 99.37% [DEBUG] switch_channel.c:3587 (sofia/internal/1001@192.168.1.4) Callstate Change RINGING -> EARLY
+1cefadbd-542a-42e4-b13b-2ce1dbef4cd8 2026-10-18 23:15:34.480884 99.37% [DEBUG] switch_core_media.c:8664 Audio params are unchanged for sofia/internal/1001@192.168.1.4.
+1cefadbd-542a-42e4-b13b-2ce1dbef4cd8 2026-10-18 23:15:34.480884 99.37% [DEBUG] mod_sofia.c:937 Local SDP sofia/internal/1001@192.168.1.4:
+1cefadbd-542a-42e4-b13b-2ce1dbef4cd8 v=0
+1cefadbd-542a-42e4-b13b-2ce1dbef4cd8 o=FreeSWITCH 1792314836 1792314837 IN IP4 192.168.1.4
+1cefadbd-542a-42e4-b13b-2ce1dbef4cd8 s=FreeSWITCH
+1cefadbd-542a-42e4-b13b-2ce1dbef4cd8 c=IN IP4 192.168.1.4
+1cefadbd-542a-42e4-b13b-2ce1dbef4cd8 t=0 0
+1cefadbd-542a-42e4-b13b-2ce1dbef4cd8 m=audio 30698 RTP/AVP 8 101
+1cefadbd-542a-42e4-b13b-2ce1dbef4cd8 a=rtpmap:8 PCMA/8000
+1cefadbd-542a-42e4-b13b-2ce1dbef4cd8 a=rtpmap:101 telephone-event/8000
+1cefadbd-542a-42e4-b13b-2ce1dbef4cd8 a=fmtp:101 0-15
+1cefadbd-542a-42e4-b13b-2ce1dbef4cd8 a=ptime:20
+1cefadbd-542a-42e4-b13b-2ce1dbef4cd8 a=sendrecv
+1cefadbd-542a-42e4-b13b-2ce1dbef4cd8 a=rtcp:30699 IN IP4 192.168.1.4
+1cefadbd-542a-42e4-b13b-2ce1dbef4cd8 
+1cefadbd-542a-42e4-b13b-2ce1dbef4cd8 2026-10-18 23:15:34.480884 99.37% [NOTICE] mod_dptools.c:1406 Channel [sofia/internal/1001@192.168.1.4] has been answered
+send 1235 bytes to udp/[192.168.1.10]:53326 at 23:15:34.500181:
+------------------------------------------------------------------------
+SIP/2.0 200 OK
+Via: SIP/2.0/UDP 192.168.1.10:53326;rport=53326;branch=z9hG4bKPj368091650b5f46adb33fc14f7e9fcaaa
+From: <sip:1001@192.168.1.4>;tag=4997d42395fc4b68b344d04729949100
+To: <sip:9196@192.168.1.4>;tag=y55XDF7UegX9K
+Call-ID: bc6ba904789e492f9f51d55637dc638a
+CSeq: 28759 INVITE
+Contact: <sip:9196@223.181.108.88:5060;transport=udp>
+User-Agent: FreeSWITCH-mod_sofia/1.11.3-release-33213556856-ef32e20529~64bit
+Accept: application/sdp
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, MESSAGE, INFO, UPDATE, REGISTER, REFER, NOTIFY, PUBLISH, SUBSCRIBE
+Require: timer
+Supported: timer, path, replaces
+Allow-Events: talk, hold, conference, presence, as-feature-event, dialog, line-seize, call-info, sla, include-session-description, presence.winfo, message-summary, refer
+Session-Expires: 1800;refresher=uac
+Content-Type: application/sdp
+Content-Disposition: session
+Content-Length: 251
+Remote-Party-ID: "9196" <sip:9196@192.168.1.4>;party=calling;privacy=off;screen=no
+
+v=0
+o=FreeSWITCH 1792314836 1792314837 IN IP4 192.168.1.4
+s=FreeSWITCH
+c=IN IP4 192.168.1.4
+t=0 0
+m=audio 30698 RTP/AVP 8 101
+a=rtpmap:8 PCMA/8000
+a=rtpmap:101 telephone-event/8000
+a=fmtp:101 0-15
+a=ptime:20
+a=rtcp:30699 IN IP4 192.168.1.4
+
+1cefadbd-542a-42e4-b13b-2ce1dbef4cd8 2026-10-18 23:15:34.500979 99.37% [DEBUG] switch_channel.c:3914 (sofia/internal/1001@192.168.1.4) Callstate Change EARLY -> ACTIVE
+1cefadbd-542a-42e4-b13b-2ce1dbef4cd8 2026-10-18 23:15:34.500979 99.37% [DEBUG] sofia.c:7511 Channel sofia/internal/1001@192.168.1.4 entering state [completed][200]
+1cefadbd-542a-42e4-b13b-2ce1dbef4cd8 EXECUTE [depth=0] sofia/internal/1001@192.168.1.4 playback(ivr/ivr-that_was_an_invalid_entry.wav)
+1cefadbd-542a-42e4-b13b-2ce1dbef4cd8 2026-10-18 23:15:34.500979 99.37% [DEBUG] switch_ivr_play_say.c:1564 Codec Activated L16@8000hz 1 channels 20ms
+1cefadbd-542a-42e4-b13b-2ce1dbef4cd8 2026-10-18 23:15:34.500979 99.37% [DEBUG] switch_rtp.c:7706 Correct audio RTCP ip/port confirmed.
+1cefadbd-542a-42e4-b13b-2ce1dbef4cd8 2026-10-18 23:15:34.500979 99.37% [DEBUG] switch_rtp.c:8258 Correct audio ip/port confirmed.
+1cefadbd-542a-42e4-b13b-2ce1dbef4cd8 2026-10-18 23:15:34.521020 99.37% [DEBUG] switch_rtp.c:2010 rtcp_stats_init: audio ssrc[1092564952] base_seq[13210]
+send 1235 bytes to udp/[192.168.1.10]:53326 at 23:15:35.001410:
+------------------------------------------------------------------------
+SIP/2.0 200 OK
+Via: SIP/2.0/UDP 192.168.1.10:53326;rport=53326;branch=z9hG4bKPj368091650b5f46adb33fc14f7e9fcaaa
+From: <sip:1001@192.168.1.4>;tag=4997d42395fc4b68b344d04729949100
+To: <sip:9196@192.168.1.4>;tag=y55XDF7UegX9K
+Call-ID: bc6ba904789e492f9f51d55637dc638a
+CSeq: 28759 INVITE
+Contact: <sip:9196@223.181.108.88:5060;transport=udp>
+User-Agent: FreeSWITCH-mod_sofia/1.11.3-release-33213556856-ef32e20529~64bit
+Accept: application/sdp
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, MESSAGE, INFO, UPDATE, REGISTER, REFER, NOTIFY, PUBLISH, SUBSCRIBE
+Require: timer
+Supported: timer, path, replaces
+Allow-Events: talk, hold, conference, presence, as-feature-event, dialog, line-seize, call-info, sla, include-session-description, presence.winfo, message-summary, refer
+Session-Expires: 1800;refresher=uac
+Content-Type: application/sdp
+Content-Disposition: session
+Content-Length: 251
+Remote-Party-ID: "9196" <sip:9196@192.168.1.4>;party=calling;privacy=off;screen=no
+
+v=0
+o=FreeSWITCH 1792314836 1792314837 IN IP4 192.168.1.4
+s=FreeSWITCH
+c=IN IP4 192.168.1.4
+t=0 0
+m=audio 30698 RTP/AVP 8 101
+a=rtpmap:8 PCMA/8000
+a=rtpmap:101 telephone-event/8000
+a=fmtp:101 0-15
+a=ptime:20
+a=rtcp:30699 IN IP4 192.168.1.4
+
+send 1235 bytes to udp/[192.168.1.10]:53326 at 23:15:36.003645:
+------------------------------------------------------------------------
+SIP/2.0 200 OK
+Via: SIP/2.0/UDP 192.168.1.10:53326;rport=53326;branch=z9hG4bKPj368091650b5f46adb33fc14f7e9fcaaa
+From: <sip:1001@192.168.1.4>;tag=4997d42395fc4b68b344d04729949100
+To: <sip:9196@192.168.1.4>;tag=y55XDF7UegX9K
+Call-ID: bc6ba904789e492f9f51d55637dc638a
+CSeq: 28759 INVITE
+Contact: <sip:9196@223.181.108.88:5060;transport=udp>
+User-Agent: FreeSWITCH-mod_sofia/1.11.3-release-33213556856-ef32e20529~64bit
+Accept: application/sdp
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, MESSAGE, INFO, UPDATE, REGISTER, REFER, NOTIFY, PUBLISH, SUBSCRIBE
+Require: timer
+Supported: timer, path, replaces
+Allow-Events: talk, hold, conference, presence, as-feature-event, dialog, line-seize, call-info, sla, include-session-description, presence.winfo, message-summary, refer
+Session-Expires: 1800;refresher=uac
+Content-Type: application/sdp
+Content-Disposition: session
+Content-Length: 251
+Remote-Party-ID: "9196" <sip:9196@192.168.1.4>;party=calling;privacy=off;screen=no
+
+v=0
+o=FreeSWITCH 1792314836 1792314837 IN IP4 192.168.1.4
+s=FreeSWITCH
+c=IN IP4 192.168.1.4
+t=0 0
+m=audio 30698 RTP/AVP 8 101
+a=rtpmap:8 PCMA/8000
+a=rtpmap:101 telephone-event/8000
+a=fmtp:101 0-15
+a=ptime:20
+a=rtcp:30699 IN IP4 192.168.1.4
+
+1cefadbd-542a-42e4-b13b-2ce1dbef4cd8 2026-10-18 23:15:36.140936 99.30% [DEBUG] switch_ivr_play_say.c:2013 done playing file /usr/share/freeswitch/sounds/en/us/callie/ivr/ivr-that_was_an_invalid_entry.wav
+1cefadbd-542a-42e4-b13b-2ce1dbef4cd8 EXECUTE [depth=0] sofia/internal/1001@192.168.1.4 hangup(UNALLOCATED_NUMBER)
+1cefadbd-542a-42e4-b13b-2ce1dbef4cd8 2026-10-18 23:15:36.140936 99.30% [NOTICE] mod_dptools.c:1374 Hangup sofia/internal/1001@192.168.1.4 [CS_EXECUTE] [UNALLOCATED_NUMBER]
+1cefadbd-542a-42e4-b13b-2ce1dbef4cd8 2026-10-18 23:15:36.140936 99.30% [DEBUG] switch_core_session.c:2984 sofia/internal/1001@192.168.1.4 skip receive message [APPLICATION_EXEC_COMPLETE] (channel is hungup already)
+1cefadbd-542a-42e4-b13b-2ce1dbef4cd8 2026-10-18 23:15:36.140936 99.30% [DEBUG] switch_core_state_machine.c:647 (sofia/internal/1001@192.168.1.4) State EXECUTE going to sleep
+1cefadbd-542a-42e4-b13b-2ce1dbef4cd8 2026-10-18 23:15:36.140936 99.30% [DEBUG] switch_core_state_machine.c:581 (sofia/internal/1001@192.168.1.4) Running State Change CS_HANGUP (Cur 1 Tot 49)
+1cefadbd-542a-42e4-b13b-2ce1dbef4cd8 2026-10-18 23:15:36.140936 99.30% [DEBUG] switch_core_state_machine.c:844 (sofia/internal/1001@192.168.1.4) Callstate Change ACTIVE -> HANGUP
+1cefadbd-542a-42e4-b13b-2ce1dbef4cd8 2026-10-18 23:15:36.140936 99.30% [DEBUG] switch_core_state_machine.c:846 (sofia/internal/1001@192.168.1.4) State HANGUP
+1cefadbd-542a-42e4-b13b-2ce1dbef4cd8 2026-10-18 23:15:36.140936 99.30% [DEBUG] mod_sofia.c:469 Channel sofia/internal/1001@192.168.1.4 hanging up, cause: UNALLOCATED_NUMBER
+1cefadbd-542a-42e4-b13b-2ce1dbef4cd8 2026-10-18 23:15:36.140936 99.30% [DEBUG] mod_sofia.c:541 Sending BYE to sofia/internal/1001@192.168.1.4
+1cefadbd-542a-42e4-b13b-2ce1dbef4cd8 2026-10-18 23:15:36.140936 99.30% [DEBUG] switch_core_state_machine.c:59 sofia/internal/1001@192.168.1.4 Standard HANGUP, cause: UNALLOCATED_NUMBER
+1cefadbd-542a-42e4-b13b-2ce1dbef4cd8 2026-10-18 23:15:36.140936 99.30% [DEBUG] switch_core_state_machine.c:846 (sofia/internal/1001@192.168.1.4) State HANGUP going to sleep
+1cefadbd-542a-42e4-b13b-2ce1dbef4cd8 2026-10-18 23:15:36.140936 99.30% [DEBUG] switch_core_state_machine.c:616 (sofia/internal/1001@192.168.1.4) State Change CS_HANGUP -> CS_REPORTING
+1cefadbd-542a-42e4-b13b-2ce1dbef4cd8 2026-10-18 23:15:36.140936 99.30% [DEBUG] switch_core_state_machine.c:581 (sofia/internal/1001@192.168.1.4) Running State Change CS_REPORTING (Cur 1 Tot 49)
+send 598 bytes to udp/[192.168.1.10]:53326 at 23:15:36.159033:
+------------------------------------------------------------------------
+BYE sip:1001@192.168.1.10:53326;ob SIP/2.0
+Via: SIP/2.0/UDP 223.181.108.88;rport;branch=z9hG4bKc0aQZ27rj9Z3K
+Max-Forwards: 70
+From: <sip:9196@192.168.1.4>;tag=y55XDF7UegX9K
+To: <sip:1001@192.168.1.4>;tag=4997d42395fc4b68b344d04729949100
+Call-ID: bc6ba904789e492f9f51d55637dc638a
+CSeq: 121618976 BYE
+User-Agent: FreeSWITCH-mod_sofia/1.11.3-release-33213556856-ef32e20529~64bit
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, MESSAGE, INFO, UPDATE, REGISTER, REFER, NOTIFY, PUBLISH, SUBSCRIBE
+Supported: timer, path, replaces
+Reason: Q.850;cause=1;text="UNALLOCATED_NUMBER"
+Content-Length: 0
+
+
+1cefadbd-542a-42e4-b13b-2ce1dbef4cd8 2026-10-18 23:15:36.140936 99.30% [DEBUG] switch_core_state_machine.c:932 (sofia/internal/1001@192.168.1.4) State REPORTING
+recv 308 bytes from udp/[192.168.1.10]:53326 at 23:15:36.159449:
+------------------------------------------------------------------------
+SIP/2.0 200 OK
+Via: SIP/2.0/UDP 223.181.108.88;rport=5060;received=192.168.1.4;branch=z9hG4bKc0aQZ27rj9Z3K
+Call-ID: bc6ba904789e492f9f51d55637dc638a
+From: <sip:9196@192.168.1.4>;tag=y55XDF7UegX9K
+To: <sip:1001@192.168.1.4>;tag=4997d42395fc4b68b344d04729949100
+CSeq: 121618976 BYE
+Content-Length:  0
+
+
+1cefadbd-542a-42e4-b13b-2ce1dbef4cd8 2026-10-18 23:15:36.140936 99.30% [DEBUG] switch_core_state_machine.c:168 sofia/internal/1001@192.168.1.4 Standard REPORTING, cause: UNALLOCATED_NUMBER
+1cefadbd-542a-42e4-b13b-2ce1dbef4cd8 2026-10-18 23:15:36.140936 99.30% [DEBUG] switch_core_state_machine.c:932 (sofia/internal/1001@192.168.1.4) State REPORTING going to sleep
+1cefadbd-542a-42e4-b13b-2ce1dbef4cd8 2026-10-18 23:15:36.140936 99.30% [DEBUG] switch_core_state_machine.c:607 (sofia/internal/1001@192.168.1.4) State Change CS_REPORTING -> CS_DESTROY
+1cefadbd-542a-42e4-b13b-2ce1dbef4cd8 2026-10-18 23:15:36.140936 99.30% [DEBUG] switch_core_session.c:1748 Session 49 (sofia/internal/1001@192.168.1.4) Locked, Waiting on external entities
+1cefadbd-542a-42e4-b13b-2ce1dbef4cd8 2026-10-18 23:15:36.140936 99.30% [NOTICE] switch_core_session.c:1766 Session 49 (sofia/internal/1001@192.168.1.4) Ended
+1cefadbd-542a-42e4-b13b-2ce1dbef4cd8 2026-10-18 23:15:36.140936 99.30% [NOTICE] switch_core_session.c:1770 Close Channel sofia/internal/1001@192.168.1.4 [CS_DESTROY]
+1cefadbd-542a-42e4-b13b-2ce1dbef4cd8 2026-10-18 23:15:36.140936 99.30% [DEBUG] switch_core_state_machine.c:735 (sofia/internal/1001@192.168.1.4) Running State Change CS_DESTROY (Cur 0 Tot 49)
+1cefadbd-542a-42e4-b13b-2ce1dbef4cd8 2026-10-18 23:15:36.140936 99.30% [DEBUG] switch_core_state_machine.c:745 (sofia/internal/1001@192.168.1.4) State DESTROY
+1cefadbd-542a-42e4-b13b-2ce1dbef4cd8 2026-10-18 23:15:36.140936 99.30% [DEBUG] mod_sofia.c:380 sofia/internal/1001@192.168.1.4 SOFIA DESTROY
+1cefadbd-542a-42e4-b13b-2ce1dbef4cd8 2026-10-18 23:15:36.140936 99.30% [DEBUG] switch_core_state_machine.c:175 sofia/internal/1001@192.168.1.4 Standard DESTROY
+1cefadbd-542a-42e4-b13b-2ce1dbef4cd8 2026-10-18 23:15:36.140936 99.30% [DEBUG] switch_core_state_machine.c:745 (sofia/internal/1001@192.168.1.4) State DESTROY going to sleep
+send 1235 bytes to udp/[192.168.1.10]:53326 at 23:15:36.618652:
+------------------------------------------------------------------------
+SIP/2.0 200 OK
+Via: SIP/2.0/UDP 192.168.1.10:53326;rport=53326;branch=z9hG4bKPjc1a64bb8f3774c9fa431831cdf256796
+From: <sip:1001@192.168.1.4>;tag=dd3bb460178e4fa199efa00f669a357e
+To: <sip:1002@192.168.1.4>;tag=vKKcaS5mmyg4c
+Call-ID: f66994f47edc414bad2c344957b74745
+CSeq: 10092 INVITE
+Contact: <sip:1002@223.181.108.88:5060;transport=udp>
+User-Agent: FreeSWITCH-mod_sofia/1.11.3-release-33213556856-ef32e20529~64bit
+Accept: application/sdp
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, MESSAGE, INFO, UPDATE, REGISTER, REFER, NOTIFY, PUBLISH, SUBSCRIBE
+Require: timer
+Supported: timer, path, replaces
+Allow-Events: talk, hold, conference, presence, as-feature-event, dialog, line-seize, call-info, sla, include-session-description, presence.winfo, message-summary, refer
+Session-Expires: 1800;refresher=uac
+Content-Type: application/sdp
+Content-Disposition: session
+Content-Length: 251
+Remote-Party-ID: "1002" <sip:1002@192.168.1.4>;party=calling;privacy=off;screen=no
+
+v=0
+o=FreeSWITCH 1792328451 1792328452 IN IP4 192.168.1.4
+s=FreeSWITCH
+c=IN IP4 192.168.1.4
+t=0 0
+m=audio 17078 RTP/AVP 8 101
+a=rtpmap:8 PCMA/8000
+a=rtpmap:101 telephone-event/8000
+a=fmtp:101 0-15
+a=ptime:20
+a=rtcp:17079 IN IP4 192.168.1.4
+
+recv 952 bytes from udp/[192.168.1.10]:53326 at 23:15:37.912244:
+------------------------------------------------------------------------
+INVITE sip:5000@192.168.1.4 SIP/2.0
+Via: SIP/2.0/UDP 192.168.1.10:53326;rport;branch=z9hG4bKPj50162c9d8c2f443695de300d4795fe15
+Max-Forwards: 70
+From: <sip:1001@192.168.1.4>;tag=9cf487d004694608861ea8cd74b4bf9d
+To: <sip:5000@192.168.1.4>
+Contact: <sip:1001@192.168.1.10:53326;ob>
+Call-ID: 3eb7ef7f6834404a9bd035a51ee92da3
+CSeq: 103 INVITE
+Allow: PRACK, INVITE, ACK, BYE, CANCEL, UPDATE, INFO, SUBSCRIBE, NOTIFY, REFER, MESSAGE, OPTIONS
+Supported: replaces, 100rel, timer, norefersub
+Session-Expires: 1800
+Min-SE: 90
+User-Agent: MicroSIP/3.22.16
+Content-Type: application/sdp
+Content-Length:   339
+
+v=0
+o=- 4001354137 4001354137 IN IP4 192.168.1.10
+s=pjmedia
+b=AS:84
+t=0 0
+a=X-nat:0
+m=audio 4060 RTP/AVP 8 0 101
+c=IN IP4 192.168.1.10
+b=TIAS:64000
+a=rtcp:4061 IN IP4 192.168.1.10
+a=sendrecv
+a=rtpmap:8 PCMA/8000
+a=rtpmap:0 PCMU/8000
+a=rtpmap:101 telephone-event/8000
+a=fmtp:101 0-16
+a=ssrc:954300530 cname:5d7144a2216521c5
+
+65cdc080-8bc5-4768-8937-36e96377be23 2026-10-18 23:15:37.900964 99.17% [NOTICE] switch_channel.c:1143 New Channel sofia/internal/1001@192.168.1.4 [65cdc080-8bc5-4768-8937-36e96377be23]
+65cdc080-8bc5-4768-8937-36e96377be23 2026-10-18 23:15:37.900964 99.17% [DEBUG] switch_core_state_machine.c:581 (sofia/internal/1001@192.168.1.4) Running State Change CS_NEW (Cur 1 Tot 50)
+65cdc080-8bc5-4768-8937-36e96377be23 2026-10-18 23:15:37.900964 99.17% [INFO] sofia.c:10478 sofia/internal/1001@192.168.1.4 receiving invite from 192.168.1.10:53326 version: 1.11.3 -release-33213556856-ef32e20529 64bit call-id: 3eb7ef7f6834404a9bd035a51ee92da3
+2026-10-18 23:15:37.900964 99.17% [DEBUG] sofia.c:10572 verifying acl "domains" for ip/port 192.168.1.10:0.
+65cdc080-8bc5-4768-8937-36e96377be23 2026-10-18 23:15:37.900964 99.17% [DEBUG] switch_core_state_machine.c:600 (sofia/internal/1001@192.168.1.4) State NEW
+send 875 bytes to udp/[192.168.1.10]:53326 at 23:15:37.913149:
+------------------------------------------------------------------------
+SIP/2.0 407 Proxy Authentication Required
+Via: SIP/2.0/UDP 192.168.1.10:53326;rport=53326;branch=z9hG4bKPj50162c9d8c2f443695de300d4795fe15
+From: <sip:1001@192.168.1.4>;tag=9cf487d004694608861ea8cd74b4bf9d
+To: <sip:5000@192.168.1.4>;tag=ZeZpFarZBSKvF
+Call-ID: 3eb7ef7f6834404a9bd035a51ee92da3
+CSeq: 103 INVITE
+User-Agent: FreeSWITCH-mod_sofia/1.11.3-release-33213556856-ef32e20529~64bit
+Accept: application/sdp
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, MESSAGE, INFO, UPDATE, REGISTER, REFER, NOTIFY, PUBLISH, SUBSCRIBE
+Supported: timer, path, replaces
+Allow-Events: talk, hold, conference, presence, as-feature-event, dialog, line-seize, call-info, sla, include-session-description, presence.winfo, message-summary, refer
+Proxy-Authenticate: Digest realm="192.168.1.4", nonce="796fd985-6968-448f-a4dd-ed1d719378a1", algorithm=MD5, qop="auth"
+Content-Length: 0
+
+
+2026-10-18 23:15:37.900964 99.17% [DEBUG] sofia.c:2408 detaching session 65cdc080-8bc5-4768-8937-36e96377be23
+recv 337 bytes from udp/[192.168.1.10]:53326 at 23:15:37.913599:
+------------------------------------------------------------------------
+ACK sip:5000@192.168.1.4 SIP/2.0
+Via: SIP/2.0/UDP 192.168.1.10:53326;rport;branch=z9hG4bKPj50162c9d8c2f443695de300d4795fe15
+Max-Forwards: 70
+From: <sip:1001@192.168.1.4>;tag=9cf487d004694608861ea8cd74b4bf9d
+To: <sip:5000@192.168.1.4>;tag=ZeZpFarZBSKvF
+Call-ID: 3eb7ef7f6834404a9bd035a51ee92da3
+CSeq: 103 ACK
+Content-Length:  0
+
+
+recv 1218 bytes from udp/[192.168.1.10]:53326 at 23:15:37.913747:
+------------------------------------------------------------------------
+INVITE sip:5000@192.168.1.4 SIP/2.0
+Via: SIP/2.0/UDP 192.168.1.10:53326;rport;branch=z9hG4bKPj8a587fa499164a848a5293eafb6ae99f
+Max-Forwards: 70
+From: <sip:1001@192.168.1.4>;tag=9cf487d004694608861ea8cd74b4bf9d
+To: <sip:5000@192.168.1.4>
+Contact: <sip:1001@192.168.1.10:53326;ob>
+Call-ID: 3eb7ef7f6834404a9bd035a51ee92da3
+CSeq: 104 INVITE
+Allow: PRACK, INVITE, ACK, BYE, CANCEL, UPDATE, INFO, SUBSCRIBE, NOTIFY, REFER, MESSAGE, OPTIONS
+Supported: replaces, 100rel, timer, norefersub
+Session-Expires: 1800
+Min-SE: 90
+User-Agent: MicroSIP/3.22.16
+Proxy-Authorization: Digest username="1001", realm="192.168.1.4", nonce="796fd985-6968-448f-a4dd-ed1d719378a1", uri="sip:5000@192.168.1.4", response="3906fd02cdb1188fb3a46c68352729e1", algorithm=MD5, cnonce="7e7dec171daa459689cbba34b8888078", qop=auth, nc=00000001
+Content-Type: application/sdp
+Content-Length:   339
+
+v=0
+o=- 4001354137 4001354137 IN IP4 192.168.1.10
+s=pjmedia
+b=AS:84
+t=0 0
+a=X-nat:0
+m=audio 4060 RTP/AVP 8 0 101
+c=IN IP4 192.168.1.10
+b=TIAS:64000
+a=rtcp:4061 IN IP4 192.168.1.10
+a=sendrecv
+a=rtpmap:8 PCMA/8000
+a=rtpmap:0 PCMU/8000
+a=rtpmap:101 telephone-event/8000
+a=fmtp:101 0-16
+a=ssrc:954300530 cname:5d7144a2216521c5
+
+2026-10-18 23:15:37.900964 99.17% [DEBUG] sofia.c:2523 Re-attaching to session 65cdc080-8bc5-4768-8937-36e96377be23
+65cdc080-8bc5-4768-8937-36e96377be23 2026-10-18 23:15:37.920791 99.17% [INFO] sofia.c:10478 sofia/internal/1001@192.168.1.4 receiving invite from 192.168.1.10:53326 version: 1.11.3 -release-33213556856-ef32e20529 64bit call-id: 3eb7ef7f6834404a9bd035a51ee92da3
+2026-10-18 23:15:37.920791 99.17% [DEBUG] sofia.c:10572 verifying acl "domains" for ip/port 192.168.1.10:0.
+65cdc080-8bc5-4768-8937-36e96377be23 2026-10-18 23:15:37.920791 99.17% [DEBUG] sofia.c:7511 Channel sofia/internal/1001@192.168.1.4 entering state [received][100]
+65cdc080-8bc5-4768-8937-36e96377be23 2026-10-18 23:15:37.920791 99.17% [DEBUG] sofia.c:7521 Remote SDP:
+65cdc080-8bc5-4768-8937-36e96377be23 v=0
+65cdc080-8bc5-4768-8937-36e96377be23 o=- 4001354137 4001354137 IN IP4 192.168.1.10
+65cdc080-8bc5-4768-8937-36e96377be23 s=pjmedia
+65cdc080-8bc5-4768-8937-36e96377be23 b=AS:84
+65cdc080-8bc5-4768-8937-36e96377be23 t=0 0
+65cdc080-8bc5-4768-8937-36e96377be23 a=X-nat:0
+65cdc080-8bc5-4768-8937-36e96377be23 m=audio 4060 RTP/AVP 8 0 101
+65cdc080-8bc5-4768-8937-36e96377be23 c=IN IP4 192.168.1.10
+65cdc080-8bc5-4768-8937-36e96377be23 b=TIAS:64000
+65cdc080-8bc5-4768-8937-36e96377be23 a=rtpmap:8 PCMA/8000
+65cdc080-8bc5-4768-8937-36e96377be23 a=rtpmap:0 PCMU/8000
+65cdc080-8bc5-4768-8937-36e96377be23 a=rtpmap:101 telephone-event/8000
+65cdc080-8bc5-4768-8937-36e96377be23 a=fmtp:101 0-16
+65cdc080-8bc5-4768-8937-36e96377be23 a=rtcp:4061 IN IP4 192.168.1.10
+65cdc080-8bc5-4768-8937-36e96377be23 a=ssrc:954300530 cname:5d7144a2216521c5
+65cdc080-8bc5-4768-8937-36e96377be23 
+65cdc080-8bc5-4768-8937-36e96377be23 2026-10-18 23:15:37.920791 99.17% [DEBUG] sofia.c:7924 (sofia/internal/1001@192.168.1.4) State Change CS_NEW -> CS_INIT
+65cdc080-8bc5-4768-8937-36e96377be23 2026-10-18 23:15:37.920791 99.17% [DEBUG] switch_core_state_machine.c:581 (sofia/internal/1001@192.168.1.4) Running State Change CS_INIT (Cur 1 Tot 50)
+65cdc080-8bc5-4768-8937-36e96377be23 2026-10-18 23:15:37.920791 99.17% [DEBUG] switch_core_state_machine.c:624 (sofia/internal/1001@192.168.1.4) State INIT
+65cdc080-8bc5-4768-8937-36e96377be23 2026-10-18 23:15:37.920791 99.17% [DEBUG] mod_sofia.c:97 sofia/internal/1001@192.168.1.4 SOFIA INIT
+65cdc080-8bc5-4768-8937-36e96377be23 2026-10-18 23:15:37.920791 99.17% [DEBUG] switch_core_state_machine.c:40 sofia/internal/1001@192.168.1.4 Standard INIT
+65cdc080-8bc5-4768-8937-36e96377be23 2026-10-18 23:15:37.920791 99.17% [DEBUG] switch_core_state_machine.c:48 (sofia/internal/1001@192.168.1.4) State Change CS_INIT -> CS_ROUTING
+65cdc080-8bc5-4768-8937-36e96377be23 2026-10-18 23:15:37.920791 99.17% [DEBUG] switch_core_state_machine.c:624 (sofia/internal/1001@192.168.1.4) State INIT going to sleep
+65cdc080-8bc5-4768-8937-36e96377be23 2026-10-18 23:15:37.920791 99.17% [DEBUG] switch_core_state_machine.c:581 (sofia/internal/1001@192.168.1.4) Running State Change CS_ROUTING (Cur 1 Tot 50)
+65cdc080-8bc5-4768-8937-36e96377be23 2026-10-18 23:15:37.920791 99.17% [DEBUG] switch_channel.c:2400 (sofia/internal/1001@192.168.1.4) Callstate Change DOWN -> RINGING
+65cdc080-8bc5-4768-8937-36e96377be23 2026-10-18 23:15:37.920791 99.17% [DEBUG] switch_core_state_machine.c:640 (sofia/internal/1001@192.168.1.4) State ROUTING
+65cdc080-8bc5-4768-8937-36e96377be23 2026-10-18 23:15:37.920791 99.17% [DEBUG] mod_sofia.c:158 sofia/internal/1001@192.168.1.4 SOFIA ROUTING
+65cdc080-8bc5-4768-8937-36e96377be23 2026-10-18 23:15:37.920791 99.17% [DEBUG] switch_core_state_machine.c:230 sofia/internal/1001@192.168.1.4 Standard ROUTING
+65cdc080-8bc5-4768-8937-36e96377be23 2026-10-18 23:15:37.920791 99.17% [INFO] mod_dialplan_xml.c:648 Processing 1001 <1001>->5000 in context default
+65cdc080-8bc5-4768-8937-36e96377be23 Dialplan: sofia/internal/1001@192.168.1.4 parsing [default->broken_catchall] continue=false
+send 373 bytes to udp/[192.168.1.10]:53326 at 23:15:37.935157:
+------------------------------------------------------------------------
+SIP/2.0 100 Trying
+Via: SIP/2.0/UDP 192.168.1.10:53326;rport=53326;branch=z9hG4bKPj8a587fa499164a848a5293eafb6ae99f
+From: <sip:1001@192.168.1.4>;tag=9cf487d004694608861ea8cd74b4bf9d
+To: <sip:5000@192.168.1.4>
+Call-ID: 3eb7ef7f6834404a9bd035a51ee92da3
+CSeq: 104 INVITE
+User-Agent: FreeSWITCH-mod_sofia/1.11.3-release-33213556856-ef32e20529~64bit
+Content-Length: 0
+
+
+65cdc080-8bc5-4768-8937-36e96377be23 Dialplan: sofia/internal/1001@192.168.1.4 Regex (PASS) [broken_catchall] destination_number(5000) =~ /^.*$/ break=on-false
+65cdc080-8bc5-4768-8937-36e96377be23 Dialplan: sofia/internal/1001@192.168.1.4 Action log(ERR [FAULT] broken_catchall swallowed ${destination_number})
+65cdc080-8bc5-4768-8937-36e96377be23 Dialplan: sofia/internal/1001@192.168.1.4 Action answer()
+65cdc080-8bc5-4768-8937-36e96377be23 Dialplan: sofia/internal/1001@192.168.1.4 Action playback(ivr/ivr-that_was_an_invalid_entry.wav)
+65cdc080-8bc5-4768-8937-36e96377be23 Dialplan: sofia/internal/1001@192.168.1.4 Action hangup(UNALLOCATED_NUMBER)
+65cdc080-8bc5-4768-8937-36e96377be23 2026-10-18 23:15:37.920791 99.17% [DEBUG] switch_core_state_machine.c:281 (sofia/internal/1001@192.168.1.4) State Change CS_ROUTING -> CS_EXECUTE
+65cdc080-8bc5-4768-8937-36e96377be23 2026-10-18 23:15:37.920791 99.17% [DEBUG] switch_core_state_machine.c:640 (sofia/internal/1001@192.168.1.4) State ROUTING going to sleep
+65cdc080-8bc5-4768-8937-36e96377be23 2026-10-18 23:15:37.920791 99.17% [DEBUG] switch_core_state_machine.c:581 (sofia/internal/1001@192.168.1.4) Running State Change CS_EXECUTE (Cur 1 Tot 50)
+65cdc080-8bc5-4768-8937-36e96377be23 2026-10-18 23:15:37.920791 99.17% [DEBUG] switch_core_state_machine.c:647 (sofia/internal/1001@192.168.1.4) State EXECUTE
+65cdc080-8bc5-4768-8937-36e96377be23 2026-10-18 23:15:37.920791 99.17% [DEBUG] mod_sofia.c:213 sofia/internal/1001@192.168.1.4 SOFIA EXECUTE
+65cdc080-8bc5-4768-8937-36e96377be23 2026-10-18 23:15:37.920791 99.17% [DEBUG] switch_core_state_machine.c:323 sofia/internal/1001@192.168.1.4 Standard EXECUTE
+65cdc080-8bc5-4768-8937-36e96377be23 EXECUTE [depth=0] sofia/internal/1001@192.168.1.4 log(ERR [FAULT] broken_catchall swallowed 5000)
+65cdc080-8bc5-4768-8937-36e96377be23 2026-10-18 23:15:37.920791 99.17% [ERR] mod_dptools.c:1865 [FAULT] broken_catchall swallowed 5000
+65cdc080-8bc5-4768-8937-36e96377be23 EXECUTE [depth=0] sofia/internal/1001@192.168.1.4 answer()
+65cdc080-8bc5-4768-8937-36e96377be23 2026-10-18 23:15:37.920791 99.17% [DEBUG] switch_core_media.c:5548 Audio Codec Compare [PCMA:8:8000:20:64000:1]/[G722:9:8000:20:64000:1]
+65cdc080-8bc5-4768-8937-36e96377be23 2026-10-18 23:15:37.920791 99.17% [DEBUG] switch_core_media.c:5548 Audio Codec Compare [PCMA:8:8000:20:64000:1]/[PCMU:0:8000:20:64000:1]
+65cdc080-8bc5-4768-8937-36e96377be23 2026-10-18 23:15:37.920791 99.17% [DEBUG] switch_core_media.c:5548 Audio Codec Compare [PCMA:8:8000:20:64000:1]/[PCMA:8:8000:20:64000:1]
+65cdc080-8bc5-4768-8937-36e96377be23 2026-10-18 23:15:37.920791 99.17% [DEBUG] switch_core_media.c:5610 Audio Codec Compare [PCMA:8:8000:20:64000:1] ++++ is saved as a match
+65cdc080-8bc5-4768-8937-36e96377be23 2026-10-18 23:15:37.920791 99.17% [DEBUG] switch_core_media.c:5548 Audio Codec Compare [PCMU:0:8000:20:64000:1]/[G722:9:8000:20:64000:1]
+65cdc080-8bc5-4768-8937-36e96377be23 2026-10-18 23:15:37.920791 99.17% [DEBUG] switch_core_media.c:5548 Audio Codec Compare [PCMU:0:8000:20:64000:1]/[PCMU:0:8000:20:64000:1]
+65cdc080-8bc5-4768-8937-36e96377be23 2026-10-18 23:15:37.920791 99.17% [DEBUG] switch_core_media.c:5610 Audio Codec Compare [PCMU:0:8000:20:64000:1] ++++ is saved as a match
+65cdc080-8bc5-4768-8937-36e96377be23 2026-10-18 23:15:37.920791 99.17% [DEBUG] switch_core_media.c:5548 Audio Codec Compare [PCMU:0:8000:20:64000:1]/[PCMA:8:8000:20:64000:1]
+65cdc080-8bc5-4768-8937-36e96377be23 2026-10-18 23:15:37.920791 99.17% [DEBUG] switch_core_media.c:5460 Set telephone-event payload to 101@8000
+65cdc080-8bc5-4768-8937-36e96377be23 2026-10-18 23:15:37.920791 99.17% [DEBUG] switch_core_media.c:3745 Set Codec sofia/internal/1001@192.168.1.4 PCMA/8000 20 ms 160 samples 64000 bits 1 channels
+65cdc080-8bc5-4768-8937-36e96377be23 2026-10-18 23:15:37.920791 99.17% [DEBUG] switch_core_codec.c:132 sofia/internal/1001@192.168.1.4 Original read codec set to PCMA:8
+65cdc080-8bc5-4768-8937-36e96377be23 2026-10-18 23:15:37.920791 99.17% [DEBUG] switch_core_media.c:5820 Set telephone-event payload to 101@8000
+65cdc080-8bc5-4768-8937-36e96377be23 2026-10-18 23:15:37.920791 99.17% [DEBUG] switch_core_media.c:5878 sofia/internal/1001@192.168.1.4 Set 2833 dtmf send payload to 101 recv payload to 101
+65cdc080-8bc5-4768-8937-36e96377be23 2026-10-18 23:15:37.920791 99.17% [DEBUG] switch_core_media.c:8682 AUDIO RTP [sofia/internal/1001@192.168.1.4] 192.168.1.4 port 19088 -> 192.168.1.10 port 4060 codec: 8 ms: 20
+65cdc080-8bc5-4768-8937-36e96377be23 2026-10-18 23:15:37.920791 99.17% [DEBUG] switch_rtp.c:4692 Starting timer [soft] 160 bytes per 20ms
+65cdc080-8bc5-4768-8937-36e96377be23 2026-10-18 23:15:37.920791 99.17% [DEBUG] switch_core_media.c:8903 Activating RTCP PORT 4061
+65cdc080-8bc5-4768-8937-36e96377be23 2026-10-18 23:15:37.920791 99.17% [DEBUG] switch_rtp.c:5052 RTCP send rate is: 1000 and packet rate is: 20000 Remote Port: 4061
+65cdc080-8bc5-4768-8937-36e96377be23 2026-10-18 23:15:37.920791 99.17% [DEBUG] switch_rtp.c:2768 Setting RTCP remote addr to 192.168.1.10:4061 2
+65cdc080-8bc5-4768-8937-36e96377be23 2026-10-18 23:15:37.920791 99.17% [DEBUG] switch_core_media.c:8995 sofia/internal/1001@192.168.1.4 Set 2833 dtmf send payload to 101
+65cdc080-8bc5-4768-8937-36e96377be23 2026-10-18 23:15:37.920791 99.17% [DEBUG] switch_core_media.c:9002 sofia/internal/1001@192.168.1.4 Set 2833 dtmf receive payload to 101
+65cdc080-8bc5-4768-8937-36e96377be23 2026-10-18 23:15:37.920791 99.17% [DEBUG] switch_core_media.c:9025 sofia/internal/1001@192.168.1.4 Set rtp dtmf delay to 40
+65cdc080-8bc5-4768-8937-36e96377be23 2026-10-18 23:15:37.920791 99.17% [NOTICE] sofia_media.c:90 Pre-Answer sofia/internal/1001@192.168.1.4!
+65cdc080-8bc5-4768-8937-36e96377be23 2026-10-18 23:15:37.920791 99.17% [DEBUG] switch_channel.c:3587 (sofia/internal/1001@192.168.1.4) Callstate Change RINGING -> EARLY
+65cdc080-8bc5-4768-8937-36e96377be23 2026-10-18 23:15:37.920791 99.17% [DEBUG] switch_core_media.c:8664 Audio params are unchanged for sofia/internal/1001@192.168.1.4.
+65cdc080-8bc5-4768-8937-36e96377be23 2026-10-18 23:15:37.920791 99.17% [DEBUG] mod_sofia.c:937 Local SDP sofia/internal/1001@192.168.1.4:
+65cdc080-8bc5-4768-8937-36e96377be23 v=0
+65cdc080-8bc5-4768-8937-36e96377be23 o=FreeSWITCH 1792326449 1792326450 IN IP4 192.168.1.4
+65cdc080-8bc5-4768-8937-36e96377be23 s=FreeSWITCH
+65cdc080-8bc5-4768-8937-36e96377be23 c=IN IP4 192.168.1.4
+65cdc080-8bc5-4768-8937-36e96377be23 t=0 0
+65cdc080-8bc5-4768-8937-36e96377be23 m=audio 19088 RTP/AVP 8 101
+65cdc080-8bc5-4768-8937-36e96377be23 a=rtpmap:8 PCMA/8000
+65cdc080-8bc5-4768-8937-36e96377be23 a=rtpmap:101 telephone-event/8000
+65cdc080-8bc5-4768-8937-36e96377be23 a=fmtp:101 0-15
+65cdc080-8bc5-4768-8937-36e96377be23 a=ptime:20
+65cdc080-8bc5-4768-8937-36e96377be23 a=sendrecv
+65cdc080-8bc5-4768-8937-36e96377be23 a=rtcp:19089 IN IP4 192.168.1.4
+65cdc080-8bc5-4768-8937-36e96377be23 
+65cdc080-8bc5-4768-8937-36e96377be23 2026-10-18 23:15:37.920791 99.17% [NOTICE] mod_dptools.c:1406 Channel [sofia/internal/1001@192.168.1.4] has been answered
+send 1233 bytes to udp/[192.168.1.10]:53326 at 23:15:37.939260:
+------------------------------------------------------------------------
+SIP/2.0 200 OK
+Via: SIP/2.0/UDP 192.168.1.10:53326;rport=53326;branch=z9hG4bKPj8a587fa499164a848a5293eafb6ae99f
+From: <sip:1001@192.168.1.4>;tag=9cf487d004694608861ea8cd74b4bf9d
+To: <sip:5000@192.168.1.4>;tag=0QrFH582819eB
+Call-ID: 3eb7ef7f6834404a9bd035a51ee92da3
+CSeq: 104 INVITE
+Contact: <sip:5000@223.181.108.88:5060;transport=udp>
+User-Agent: FreeSWITCH-mod_sofia/1.11.3-release-33213556856-ef32e20529~64bit
+Accept: application/sdp
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, MESSAGE, INFO, UPDATE, REGISTER, REFER, NOTIFY, PUBLISH, SUBSCRIBE
+Require: timer
+Supported: timer, path, replaces
+Allow-Events: talk, hold, conference, presence, as-feature-event, dialog, line-seize, call-info, sla, include-session-description, presence.winfo, message-summary, refer
+Session-Expires: 1800;refresher=uac
+Content-Type: application/sdp
+Content-Disposition: session
+Content-Length: 251
+Remote-Party-ID: "5000" <sip:5000@192.168.1.4>;party=calling;privacy=off;screen=no
+
+v=0
+o=FreeSWITCH 1792326449 1792326450 IN IP4 192.168.1.4
+s=FreeSWITCH
+c=IN IP4 192.168.1.4
+t=0 0
+m=audio 19088 RTP/AVP 8 101
+a=rtpmap:8 PCMA/8000
+a=rtpmap:101 telephone-event/8000
+a=fmtp:101 0-15
+a=ptime:20
+a=rtcp:19089 IN IP4 192.168.1.4
+
+65cdc080-8bc5-4768-8937-36e96377be23 2026-10-18 23:15:37.920791 99.17% [DEBUG] switch_channel.c:3914 (sofia/internal/1001@192.168.1.4) Callstate Change EARLY -> ACTIVE
+65cdc080-8bc5-4768-8937-36e96377be23 2026-10-18 23:15:37.920791 99.17% [DEBUG] sofia.c:7511 Channel sofia/internal/1001@192.168.1.4 entering state [completed][200]
+65cdc080-8bc5-4768-8937-36e96377be23 EXECUTE [depth=0] sofia/internal/1001@192.168.1.4 playback(ivr/ivr-that_was_an_invalid_entry.wav)
+65cdc080-8bc5-4768-8937-36e96377be23 2026-10-18 23:15:37.940793 99.17% [DEBUG] switch_ivr_play_say.c:1564 Codec Activated L16@8000hz 1 channels 20ms
+65cdc080-8bc5-4768-8937-36e96377be23 2026-10-18 23:15:37.940793 99.17% [DEBUG] switch_rtp.c:7706 Correct audio RTCP ip/port confirmed.
+65cdc080-8bc5-4768-8937-36e96377be23 2026-10-18 23:15:37.940793 99.17% [DEBUG] switch_rtp.c:8258 Correct audio ip/port confirmed.
+65cdc080-8bc5-4768-8937-36e96377be23 2026-10-18 23:15:37.960862 99.17% [DEBUG] switch_rtp.c:2010 rtcp_stats_init: audio ssrc[954300530] base_seq[25520]
+send 1235 bytes to udp/[192.168.1.10]:53326 at 23:15:38.004735:
+------------------------------------------------------------------------
+SIP/2.0 200 OK
+Via: SIP/2.0/UDP 192.168.1.10:53326;rport=53326;branch=z9hG4bKPj368091650b5f46adb33fc14f7e9fcaaa
+From: <sip:1001@192.168.1.4>;tag=4997d42395fc4b68b344d04729949100
+To: <sip:9196@192.168.1.4>;tag=y55XDF7UegX9K
+Call-ID: bc6ba904789e492f9f51d55637dc638a
+CSeq: 28759 INVITE
+Contact: <sip:9196@223.181.108.88:5060;transport=udp>
+User-Agent: FreeSWITCH-mod_sofia/1.11.3-release-33213556856-ef32e20529~64bit
+Accept: application/sdp
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, MESSAGE, INFO, UPDATE, REGISTER, REFER, NOTIFY, PUBLISH, SUBSCRIBE
+Require: timer
+Supported: timer, path, replaces
+Allow-Events: talk, hold, conference, presence, as-feature-event, dialog, line-seize, call-info, sla, include-session-description, presence.winfo, message-summary, refer
+Session-Expires: 1800;refresher=uac
+Content-Type: application/sdp
+Content-Disposition: session
+Content-Length: 251
+Remote-Party-ID: "9196" <sip:9196@192.168.1.4>;party=calling;privacy=off;screen=no
+
+v=0
+o=FreeSWITCH 1792314836 1792314837 IN IP4 192.168.1.4
+s=FreeSWITCH
+c=IN IP4 192.168.1.4
+t=0 0
+m=audio 30698 RTP/AVP 8 101
+a=rtpmap:8 PCMA/8000
+a=rtpmap:101 telephone-event/8000
+a=fmtp:101 0-15
+a=ptime:20
+a=rtcp:30699 IN IP4 192.168.1.4
+
+send 1233 bytes to udp/[192.168.1.10]:53326 at 23:15:38.438729:
+------------------------------------------------------------------------
+SIP/2.0 200 OK
+Via: SIP/2.0/UDP 192.168.1.10:53326;rport=53326;branch=z9hG4bKPj8a587fa499164a848a5293eafb6ae99f
+From: <sip:1001@192.168.1.4>;tag=9cf487d004694608861ea8cd74b4bf9d
+To: <sip:5000@192.168.1.4>;tag=0QrFH582819eB
+Call-ID: 3eb7ef7f6834404a9bd035a51ee92da3
+CSeq: 104 INVITE
+Contact: <sip:5000@223.181.108.88:5060;transport=udp>
+User-Agent: FreeSWITCH-mod_sofia/1.11.3-release-33213556856-ef32e20529~64bit
+Accept: application/sdp
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, MESSAGE, INFO, UPDATE, REGISTER, REFER, NOTIFY, PUBLISH, SUBSCRIBE
+Require: timer
+Supported: timer, path, replaces
+Allow-Events: talk, hold, conference, presence, as-feature-event, dialog, line-seize, call-info, sla, include-session-description, presence.winfo, message-summary, refer
+Session-Expires: 1800;refresher=uac
+Content-Type: application/sdp
+Content-Disposition: session
+Content-Length: 251
+Remote-Party-ID: "5000" <sip:5000@192.168.1.4>;party=calling;privacy=off;screen=no
+
+v=0
+o=FreeSWITCH 1792326449 1792326450 IN IP4 192.168.1.4
+s=FreeSWITCH
+c=IN IP4 192.168.1.4
+t=0 0
+m=audio 19088 RTP/AVP 8 101
+a=rtpmap:8 PCMA/8000
+a=rtpmap:101 telephone-event/8000
+a=fmtp:101 0-15
+a=ptime:20
+a=rtcp:19089 IN IP4 192.168.1.4
+
+send 1233 bytes to udp/[192.168.1.10]:53326 at 23:15:39.438727:
+------------------------------------------------------------------------
+SIP/2.0 200 OK
+Via: SIP/2.0/UDP 192.168.1.10:53326;rport=53326;branch=z9hG4bKPj8a587fa499164a848a5293eafb6ae99f
+From: <sip:1001@192.168.1.4>;tag=9cf487d004694608861ea8cd74b4bf9d
+To: <sip:5000@192.168.1.4>;tag=0QrFH582819eB
+Call-ID: 3eb7ef7f6834404a9bd035a51ee92da3
+CSeq: 104 INVITE
+Contact: <sip:5000@223.181.108.88:5060;transport=udp>
+User-Agent: FreeSWITCH-mod_sofia/1.11.3-release-33213556856-ef32e20529~64bit
+Accept: application/sdp
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, MESSAGE, INFO, UPDATE, REGISTER, REFER, NOTIFY, PUBLISH, SUBSCRIBE
+Require: timer
+Supported: timer, path, replaces
+Allow-Events: talk, hold, conference, presence, as-feature-event, dialog, line-seize, call-info, sla, include-session-description, presence.winfo, message-summary, refer
+Session-Expires: 1800;refresher=uac
+Content-Type: application/sdp
+Content-Disposition: session
+Content-Length: 251
+Remote-Party-ID: "5000" <sip:5000@192.168.1.4>;party=calling;privacy=off;screen=no
+
+v=0
+o=FreeSWITCH 1792326449 1792326450 IN IP4 192.168.1.4
+s=FreeSWITCH
+c=IN IP4 192.168.1.4
+t=0 0
+m=audio 19088 RTP/AVP 8 101
+a=rtpmap:8 PCMA/8000
+a=rtpmap:101 telephone-event/8000
+a=fmtp:101 0-15
+a=ptime:20
+a=rtcp:19089 IN IP4 192.168.1.4
+
+65cdc080-8bc5-4768-8937-36e96377be23 2026-10-18 23:15:39.580980 99.03% [DEBUG] switch_ivr_play_say.c:2013 done playing file /usr/share/freeswitch/sounds/en/us/callie/ivr/ivr-that_was_an_invalid_entry.wav
+65cdc080-8bc5-4768-8937-36e96377be23 EXECUTE [depth=0] sofia/internal/1001@192.168.1.4 hangup(UNALLOCATED_NUMBER)
+65cdc080-8bc5-4768-8937-36e96377be23 2026-10-18 23:15:39.580980 99.03% [NOTICE] mod_dptools.c:1374 Hangup sofia/internal/1001@192.168.1.4 [CS_EXECUTE] [UNALLOCATED_NUMBER]
+65cdc080-8bc5-4768-8937-36e96377be23 2026-10-18 23:15:39.580980 99.03% [DEBUG] switch_core_session.c:2984 sofia/internal/1001@192.168.1.4 skip receive message [APPLICATION_EXEC_COMPLETE] (channel is hungup already)
+65cdc080-8bc5-4768-8937-36e96377be23 2026-10-18 23:15:39.580980 99.03% [DEBUG] switch_core_state_machine.c:647 (sofia/internal/1001@192.168.1.4) State EXECUTE going to sleep
+65cdc080-8bc5-4768-8937-36e96377be23 2026-10-18 23:15:39.580980 99.03% [DEBUG] switch_core_state_machine.c:581 (sofia/internal/1001@192.168.1.4) Running State Change CS_HANGUP (Cur 1 Tot 50)
+65cdc080-8bc5-4768-8937-36e96377be23 2026-10-18 23:15:39.580980 99.03% [DEBUG] switch_core_state_machine.c:844 (sofia/internal/1001@192.168.1.4) Callstate Change ACTIVE -> HANGUP
+65cdc080-8bc5-4768-8937-36e96377be23 2026-10-18 23:15:39.580980 99.03% [DEBUG] switch_core_state_machine.c:846 (sofia/internal/1001@192.168.1.4) State HANGUP
+65cdc080-8bc5-4768-8937-36e96377be23 2026-10-18 23:15:39.580980 99.03% [DEBUG] mod_sofia.c:469 Channel sofia/internal/1001@192.168.1.4 hanging up, cause: UNALLOCATED_NUMBER
+65cdc080-8bc5-4768-8937-36e96377be23 2026-10-18 23:15:39.580980 99.03% [DEBUG] mod_sofia.c:541 Sending BYE to sofia/internal/1001@192.168.1.4
+65cdc080-8bc5-4768-8937-36e96377be23 2026-10-18 23:15:39.580980 99.03% [DEBUG] switch_core_state_machine.c:59 sofia/internal/1001@192.168.1.4 Standard HANGUP, cause: UNALLOCATED_NUMBER
+65cdc080-8bc5-4768-8937-36e96377be23 2026-10-18 23:15:39.580980 99.03% [DEBUG] switch_core_state_machine.c:846 (sofia/internal/1001@192.168.1.4) State HANGUP going to sleep
+65cdc080-8bc5-4768-8937-36e96377be23 2026-10-18 23:15:39.580980 99.03% [DEBUG] switch_core_state_machine.c:616 (sofia/internal/1001@192.168.1.4) State Change CS_HANGUP -> CS_REPORTING
+65cdc080-8bc5-4768-8937-36e96377be23 2026-10-18 23:15:39.580980 99.03% [DEBUG] switch_core_state_machine.c:581 (sofia/internal/1001@192.168.1.4) Running State Change CS_REPORTING (Cur 1 Tot 50)
+send 598 bytes to udp/[192.168.1.10]:53326 at 23:15:39.598589:
+------------------------------------------------------------------------
+BYE sip:1001@192.168.1.10:53326;ob SIP/2.0
+Via: SIP/2.0/UDP 223.181.108.88;rport;branch=z9hG4bKD93F1XrvFjppF
+Max-Forwards: 70
+From: <sip:5000@192.168.1.4>;tag=0QrFH582819eB
+To: <sip:1001@192.168.1.4>;tag=9cf487d004694608861ea8cd74b4bf9d
+Call-ID: 3eb7ef7f6834404a9bd035a51ee92da3
+CSeq: 121618977 BYE
+User-Agent: FreeSWITCH-mod_sofia/1.11.3-release-33213556856-ef32e20529~64bit
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, MESSAGE, INFO, UPDATE, REGISTER, REFER, NOTIFY, PUBLISH, SUBSCRIBE
+Supported: timer, path, replaces
+Reason: Q.850;cause=1;text="UNALLOCATED_NUMBER"
+Content-Length: 0
+
+
+65cdc080-8bc5-4768-8937-36e96377be23 2026-10-18 23:15:39.580980 99.03% [DEBUG] switch_core_state_machine.c:932 (sofia/internal/1001@192.168.1.4) State REPORTING
+recv 308 bytes from udp/[192.168.1.10]:53326 at 23:15:39.599099:
+------------------------------------------------------------------------
+SIP/2.0 200 OK
+Via: SIP/2.0/UDP 223.181.108.88;rport=5060;received=192.168.1.4;branch=z9hG4bKD93F1XrvFjppF
+Call-ID: 3eb7ef7f6834404a9bd035a51ee92da3
+From: <sip:5000@192.168.1.4>;tag=0QrFH582819eB
+To: <sip:1001@192.168.1.4>;tag=9cf487d004694608861ea8cd74b4bf9d
+CSeq: 121618977 BYE
+Content-Length:  0
+
+
+65cdc080-8bc5-4768-8937-36e96377be23 2026-10-18 23:15:39.580980 99.03% [DEBUG] switch_core_state_machine.c:168 sofia/internal/1001@192.168.1.4 Standard REPORTING, cause: UNALLOCATED_NUMBER
+65cdc080-8bc5-4768-8937-36e96377be23 2026-10-18 23:15:39.580980 99.03% [DEBUG] switch_core_state_machine.c:932 (sofia/internal/1001@192.168.1.4) State REPORTING going to sleep
+65cdc080-8bc5-4768-8937-36e96377be23 2026-10-18 23:15:39.580980 99.03% [DEBUG] switch_core_state_machine.c:607 (sofia/internal/1001@192.168.1.4) State Change CS_REPORTING -> CS_DESTROY
+65cdc080-8bc5-4768-8937-36e96377be23 2026-10-18 23:15:39.580980 99.03% [DEBUG] switch_core_session.c:1748 Session 50 (sofia/internal/1001@192.168.1.4) Locked, Waiting on external entities
+65cdc080-8bc5-4768-8937-36e96377be23 2026-10-18 23:15:39.580980 99.03% [NOTICE] switch_core_session.c:1766 Session 50 (sofia/internal/1001@192.168.1.4) Ended
+65cdc080-8bc5-4768-8937-36e96377be23 2026-10-18 23:15:39.580980 99.03% [NOTICE] switch_core_session.c:1770 Close Channel sofia/internal/1001@192.168.1.4 [CS_DESTROY]
+65cdc080-8bc5-4768-8937-36e96377be23 2026-10-18 23:15:39.580980 99.03% [DEBUG] switch_core_state_machine.c:735 (sofia/internal/1001@192.168.1.4) Running State Change CS_DESTROY (Cur 0 Tot 50)
+65cdc080-8bc5-4768-8937-36e96377be23 2026-10-18 23:15:39.580980 99.03% [DEBUG] switch_core_state_machine.c:745 (sofia/internal/1001@192.168.1.4) State DESTROY
+65cdc080-8bc5-4768-8937-36e96377be23 2026-10-18 23:15:39.580980 99.03% [DEBUG] mod_sofia.c:380 sofia/internal/1001@192.168.1.4 SOFIA DESTROY
+65cdc080-8bc5-4768-8937-36e96377be23 2026-10-18 23:15:39.580980 99.03% [DEBUG] switch_core_state_machine.c:175 sofia/internal/1001@192.168.1.4 Standard DESTROY
+65cdc080-8bc5-4768-8937-36e96377be23 2026-10-18 23:15:39.580980 99.03% [DEBUG] switch_core_state_machine.c:745 (sofia/internal/1001@192.168.1.4) State DESTROY going to sleep
+send 1235 bytes to udp/[192.168.1.10]:53326 at 23:15:40.618823:
+------------------------------------------------------------------------
+SIP/2.0 200 OK
+Via: SIP/2.0/UDP 192.168.1.10:53326;rport=53326;branch=z9hG4bKPjc1a64bb8f3774c9fa431831cdf256796
+From: <sip:1001@192.168.1.4>;tag=dd3bb460178e4fa199efa00f669a357e
+To: <sip:1002@192.168.1.4>;tag=vKKcaS5mmyg4c
+Call-ID: f66994f47edc414bad2c344957b74745
+CSeq: 10092 INVITE
+Contact: <sip:1002@223.181.108.88:5060;transport=udp>
+User-Agent: FreeSWITCH-mod_sofia/1.11.3-release-33213556856-ef32e20529~64bit
+Accept: application/sdp
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, MESSAGE, INFO, UPDATE, REGISTER, REFER, NOTIFY, PUBLISH, SUBSCRIBE
+Require: timer
+Supported: timer, path, replaces
+Allow-Events: talk, hold, conference, presence, as-feature-event, dialog, line-seize, call-info, sla, include-session-description, presence.winfo, message-summary, refer
+Session-Expires: 1800;refresher=uac
+Content-Type: application/sdp
+Content-Disposition: session
+Content-Length: 251
+Remote-Party-ID: "1002" <sip:1002@192.168.1.4>;party=calling;privacy=off;screen=no
+
+v=0
+o=FreeSWITCH 1792328451 1792328452 IN IP4 192.168.1.4
+s=FreeSWITCH
+c=IN IP4 192.168.1.4
+t=0 0
+m=audio 17078 RTP/AVP 8 101
+a=rtpmap:8 PCMA/8000
+a=rtpmap:101 telephone-event/8000
+a=fmtp:101 0-15
+a=ptime:20
+a=rtcp:17079 IN IP4 192.168.1.4
+
+send 1233 bytes to udp/[192.168.1.10]:53326 at 23:15:41.439171:
+------------------------------------------------------------------------
+SIP/2.0 200 OK
+Via: SIP/2.0/UDP 192.168.1.10:53326;rport=53326;branch=z9hG4bKPj8a587fa499164a848a5293eafb6ae99f
+From: <sip:1001@192.168.1.4>;tag=9cf487d004694608861ea8cd74b4bf9d
+To: <sip:5000@192.168.1.4>;tag=0QrFH582819eB
+Call-ID: 3eb7ef7f6834404a9bd035a51ee92da3
+CSeq: 104 INVITE
+Contact: <sip:5000@223.181.108.88:5060;transport=udp>
+User-Agent: FreeSWITCH-mod_sofia/1.11.3-release-33213556856-ef32e20529~64bit
+Accept: application/sdp
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, MESSAGE, INFO, UPDATE, REGISTER, REFER, NOTIFY, PUBLISH, SUBSCRIBE
+Require: timer
+Supported: timer, path, replaces
+Allow-Events: talk, hold, conference, presence, as-feature-event, dialog, line-seize, call-info, sla, include-session-description, presence.winfo, message-summary, refer
+Session-Expires: 1800;refresher=uac
+Content-Type: application/sdp
+Content-Disposition: session
+Content-Length: 251
+Remote-Party-ID: "5000" <sip:5000@192.168.1.4>;party=calling;privacy=off;screen=no
+
+v=0
+o=FreeSWITCH 1792326449 1792326450 IN IP4 192.168.1.4
+s=FreeSWITCH
+c=IN IP4 192.168.1.4
+t=0 0
+m=audio 19088 RTP/AVP 8 101
+a=rtpmap:8 PCMA/8000
+a=rtpmap:101 telephone-event/8000
+a=fmtp:101 0-15
+a=ptime:20
+a=rtcp:19089 IN IP4 192.168.1.4
+
+send 1235 bytes to udp/[192.168.1.10]:53326 at 23:15:42.006683:
+------------------------------------------------------------------------
+SIP/2.0 200 OK
+Via: SIP/2.0/UDP 192.168.1.10:53326;rport=53326;branch=z9hG4bKPj368091650b5f46adb33fc14f7e9fcaaa
+From: <sip:1001@192.168.1.4>;tag=4997d42395fc4b68b344d04729949100
+To: <sip:9196@192.168.1.4>;tag=y55XDF7UegX9K
+Call-ID: bc6ba904789e492f9f51d55637dc638a
+CSeq: 28759 INVITE
+Contact: <sip:9196@223.181.108.88:5060;transport=udp>
+User-Agent: FreeSWITCH-mod_sofia/1.11.3-release-33213556856-ef32e20529~64bit
+Accept: application/sdp
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, MESSAGE, INFO, UPDATE, REGISTER, REFER, NOTIFY, PUBLISH, SUBSCRIBE
+Require: timer
+Supported: timer, path, replaces
+Allow-Events: talk, hold, conference, presence, as-feature-event, dialog, line-seize, call-info, sla, include-session-description, presence.winfo, message-summary, refer
+Session-Expires: 1800;refresher=uac
+Content-Type: application/sdp
+Content-Disposition: session
+Content-Length: 251
+Remote-Party-ID: "9196" <sip:9196@192.168.1.4>;party=calling;privacy=off;screen=no
+
+v=0
+o=FreeSWITCH 1792314836 1792314837 IN IP4 192.168.1.4
+s=FreeSWITCH
+c=IN IP4 192.168.1.4
+t=0 0
+m=audio 30698 RTP/AVP 8 101
+a=rtpmap:8 PCMA/8000
+a=rtpmap:101 telephone-event/8000
+a=fmtp:101 0-15
+a=ptime:20
+a=rtcp:30699 IN IP4 192.168.1.4
+

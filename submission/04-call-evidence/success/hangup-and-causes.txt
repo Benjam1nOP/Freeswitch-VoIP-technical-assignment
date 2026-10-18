@@ -1,0 +1,1 @@
+169:d83b6eb5-d3b9-469c-b3da-177e9cd6ab67 Dialplan: sofia/internal/1001@192.168.1.4 Action log(WARNING [assignment] bridge to 1002 failed: originate_disposition=${originate_disposition} cause=${hangup_cause} sip=${last_bridge_proto_specific_hangup_cause})

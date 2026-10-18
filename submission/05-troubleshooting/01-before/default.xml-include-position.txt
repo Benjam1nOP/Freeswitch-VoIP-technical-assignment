@@ -1,0 +1,79 @@
+$ grep -n 'context name\|X-PRE-PROCESS\|<extension' /etc/freeswitch/dialplan/default.xml
+
+14:  <context name="default">
+15:    <X-PRE-PROCESS cmd="include" data="default/*.xml"/>
+17:    <extension name="unloop">
+42:    <extension name="tod_example" continue="true">
+53:    <extension name="holiday_example" continue="true">
+96:    <extension name="global-intercept">
+104:    <extension name="group-intercept">
+112:    <extension name="intercept-ext">
+120:    <extension name="redial">
+126:    <extension name="global" continue="true">
+175:    <extension name="external_sip_uri" continue="true">
+184:    <extension name="eavesdrop">
+191:    <extension name="eavesdrop">
+201:    <extension name="call_return">
+207:    <extension name="del-group">
+215:    <extension name="add-group">
+223:    <extension name="call-group-simo">
+229:    <extension name="call-group-order">
+235:    <extension name="extension-intercom">
+248:    <extension name="Local_Extension">
+277:    <extension name="Local_Extension_Skinny">
+291:    <extension name="group_dial_sales">
+297:    <extension name="group_dial_support">
+303:    <extension name="group_dial_billing">
+310:    <extension name="operator">
+318:    <extension name="vmain">
+329:    <extension name="nb_conferences">
+336:    <extension name="wb_conferences">
+343:    <extension name="uwb_conferences">
+350:    <extension name="cdquality_conferences">
+358:    <extension name="cdquality_stereo_conferences">
+367:    <extension name="conference-canvases" continue="true">
+375:    <extension name="conf mod">
+383:    <extension name="cdquality_conferences">
+390:    <extension name="cdquality_conferences_720">
+397:    <extension name="cdquality_conferences_480">
+404:    <extension name="cdquality_conferences_320">
+412:    <extension name="freeswitch_public_conf_via_sip">
+428:    <extension name="mad_boss_intercom">
+446:    <extension name="mad_boss_intercom">
+460:    <extension name="mad_boss">
+475:    <extension name="ivr_demo">
+484:    <extension name="dynamic_conference">
+490:    <extension name="rtp_multicast_page">
+500:    <extension name="park">
+510:    <extension name="unpark">
+521:    <extension name="valet_park">
+533:    <extension name="valet_park">
+548:    <extension name="park">
+558:    <extension name="unpark">
+575:    <extension name="park">
+591:    <extension name="unpark">
+609:    <extension name="wait">
+620:    <extension name="fax_receive">
+629:    <extension name="fax_transmit">
+637:    <extension name="ringback_180">
+649:    <extension name="ringback_183_uk_ring">
+657:    <extension name="ringback_183_music_ring">
+665:    <extension name="ringback_post_answer_uk_ring">
+674:    <extension name="ringback_post_answer_music">
+682:    <extension name="ClueCon">
+689:    <extension name="show_info">
+698:    <extension name="video_record">
+705:    <extension name="video_playback">
+712:    <extension name="delay_echo">
+719:    <extension name="echo">
+726:    <extension name="milliwatt">
+733:    <extension name="tone_stream">
+745:    <extension name="hold_music">
+757:    <extension name="laugh break">
+771:    <extension name="refer">
+788:    <extension name="ruri">
+794:    <extension name="7004">
+804:    <extension name="enum">
+811:    <extension name="acknowledge_call">
+
+include position: early

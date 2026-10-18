@@ -1,0 +1,8 @@
+$ fs_cli -x "show registrations"
+
+reg_user,realm,token,url,expires,network_ip,network_port,network_proto,hostname,metadata
+1002,192.168.1.4,pnkWRE7A9p,sofia/internal/sip:1002@192.168.1.6:49711;transport=udp,1792346607,192.168.1.6,49711,udp,fs-lab,
+1001,192.168.1.4,18351f13e8eb495e8eff741dee4d0a36,sofia/internal/sip:1001@192.168.1.10:53326;ob,1792344581,192.168.1.10,53326,udp,fs-lab,
+
+2 total.
+

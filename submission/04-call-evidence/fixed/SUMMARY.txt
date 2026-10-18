@@ -1,0 +1,26 @@
+Call capture: fixed
+Captured at:  2026-10-18 23:22:50 IST
+FreeSWITCH:   FreeSWITCH Version 1.11.3-release-33213556856-ef32e20529~64bit (-release-33213556856-ef32e20529 64bit)
+
+Channel UUIDs:
+  00cd53b1-80f4-4d3e-a713-d07e5bed2ad6
+  0b603ad2-e741-4bd0-905e-bd2ea1781444
+  32ad9f11-e6c5-47b8-bf44-dfe34c21d59d
+  4059a0b0-cee9-4af2-b57f-464c774f6762
+  59eccd48-0c6c-4e39-a66c-b90b67525217
+  6df0ab59-45bf-1240-03a8-000c298671e9
+  6e9d866b-45bf-1240-03a8-000c298671e9
+  700649ba-10c1-4227-8fea-fd7622afdb3c
+  89b817f3-ea17-4096-8b6d-b8f4b1c37ce7
+  a5b9d42b-7ddc-49f4-ba37-865b0ec77a35
+  d7694dd9-b52d-42dd-a2c5-2514655a7605
+
+Media addresses advertised in SDP (c=IN IP4):
+  c=IN IP4 192.168.1.10
+  c=IN IP4 192.168.1.4
+  c=IN IP4 192.168.1.6
+
+CDR rows produced:
+  "1001","1001","1002","default","2026-10-18 23:21:48","2026-10-18 23:21:50","2026-10-18 23:22:22","34","32","NORMAL_UNSPECIFIED","89b817f3-ea17-4096-8b6d-b8f4b1c37ce7","a5b9d42b-7ddc-49f4-ba37-865b0ec77a35","1001","PCMA","PCMA"
+  "1001","1001","9196","default","2026-10-18 23:22:04","2026-10-18 23:22:04","2026-10-18 23:22:36","32","32","NORMAL_UNSPECIFIED","59eccd48-0c6c-4e39-a66c-b90b67525217","","1001","PCMA","PCMA"
+  "1001","1001","5000","default","2026-10-18 23:22:16","2026-10-18 23:22:16","2026-10-18 23:22:48","32","32","NORMAL_UNSPECIFIED","d7694dd9-b52d-42dd-a2c5-2514655a7605","","1001","PCMA","PCMA"

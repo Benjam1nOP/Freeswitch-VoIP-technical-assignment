@@ -1,0 +1,21 @@
+422:b9ab7d6f-1f06-4f1a-a2ff-753f48de7402 Dialplan: sofia/internal/1001@192.168.1.4 Action hangup(UNALLOCATED_NUMBER)
+578:b9ab7d6f-1f06-4f1a-a2ff-753f48de7402 EXECUTE [depth=0] sofia/internal/1001@192.168.1.4 hangup(UNALLOCATED_NUMBER)
+579:b9ab7d6f-1f06-4f1a-a2ff-753f48de7402 2026-10-18 23:15:30.760977 99.40% [NOTICE] mod_dptools.c:1374 Hangup sofia/internal/1001@192.168.1.4 [CS_EXECUTE] [UNALLOCATED_NUMBER]
+585:b9ab7d6f-1f06-4f1a-a2ff-753f48de7402 2026-10-18 23:15:30.760977 99.40% [DEBUG] mod_sofia.c:469 Channel sofia/internal/1001@192.168.1.4 hanging up, cause: UNALLOCATED_NUMBER
+587:b9ab7d6f-1f06-4f1a-a2ff-753f48de7402 2026-10-18 23:15:30.760977 99.40% [DEBUG] switch_core_state_machine.c:59 sofia/internal/1001@192.168.1.4 Standard HANGUP, cause: UNALLOCATED_NUMBER
+602:Reason: Q.850;cause=1;text="UNALLOCATED_NUMBER"
+608:b9ab7d6f-1f06-4f1a-a2ff-753f48de7402 2026-10-18 23:15:30.760977 99.40% [DEBUG] switch_core_state_machine.c:168 sofia/internal/1001@192.168.1.4 Standard REPORTING, cause: UNALLOCATED_NUMBER
+820:1cefadbd-542a-42e4-b13b-2ce1dbef4cd8 Dialplan: sofia/internal/1001@192.168.1.4 Action hangup(UNALLOCATED_NUMBER)
+976:1cefadbd-542a-42e4-b13b-2ce1dbef4cd8 EXECUTE [depth=0] sofia/internal/1001@192.168.1.4 hangup(UNALLOCATED_NUMBER)
+977:1cefadbd-542a-42e4-b13b-2ce1dbef4cd8 2026-10-18 23:15:36.140936 99.30% [NOTICE] mod_dptools.c:1374 Hangup sofia/internal/1001@192.168.1.4 [CS_EXECUTE] [UNALLOCATED_NUMBER]
+983:1cefadbd-542a-42e4-b13b-2ce1dbef4cd8 2026-10-18 23:15:36.140936 99.30% [DEBUG] mod_sofia.c:469 Channel sofia/internal/1001@192.168.1.4 hanging up, cause: UNALLOCATED_NUMBER
+985:1cefadbd-542a-42e4-b13b-2ce1dbef4cd8 2026-10-18 23:15:36.140936 99.30% [DEBUG] switch_core_state_machine.c:59 sofia/internal/1001@192.168.1.4 Standard HANGUP, cause: UNALLOCATED_NUMBER
+1001:Reason: Q.850;cause=1;text="UNALLOCATED_NUMBER"
+1017:1cefadbd-542a-42e4-b13b-2ce1dbef4cd8 2026-10-18 23:15:36.140936 99.30% [DEBUG] switch_core_state_machine.c:168 sofia/internal/1001@192.168.1.4 Standard REPORTING, cause: UNALLOCATED_NUMBER
+1218:65cdc080-8bc5-4768-8937-36e96377be23 Dialplan: sofia/internal/1001@192.168.1.4 Action hangup(UNALLOCATED_NUMBER)
+1407:65cdc080-8bc5-4768-8937-36e96377be23 EXECUTE [depth=0] sofia/internal/1001@192.168.1.4 hangup(UNALLOCATED_NUMBER)
+1408:65cdc080-8bc5-4768-8937-36e96377be23 2026-10-18 23:15:39.580980 99.03% [NOTICE] mod_dptools.c:1374 Hangup sofia/internal/1001@192.168.1.4 [CS_EXECUTE] [UNALLOCATED_NUMBER]
+1414:65cdc080-8bc5-4768-8937-36e96377be23 2026-10-18 23:15:39.580980 99.03% [DEBUG] mod_sofia.c:469 Channel sofia/internal/1001@192.168.1.4 hanging up, cause: UNALLOCATED_NUMBER
+1416:65cdc080-8bc5-4768-8937-36e96377be23 2026-10-18 23:15:39.580980 99.03% [DEBUG] switch_core_state_machine.c:59 sofia/internal/1001@192.168.1.4 Standard HANGUP, cause: UNALLOCATED_NUMBER
+1432:Reason: Q.850;cause=1;text="UNALLOCATED_NUMBER"
+1448:65cdc080-8bc5-4768-8937-36e96377be23 2026-10-18 23:15:39.580980 99.03% [DEBUG] switch_core_state_machine.c:168 sofia/internal/1001@192.168.1.4 Standard REPORTING, cause: UNALLOCATED_NUMBER

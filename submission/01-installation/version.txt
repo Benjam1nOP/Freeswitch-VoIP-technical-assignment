@@ -1,0 +1,4 @@
+$ fs_cli -x "version"
+
+FreeSWITCH Version 1.11.3-release-33213556856-ef32e20529~64bit (-release-33213556856-ef32e20529 64bit)
+

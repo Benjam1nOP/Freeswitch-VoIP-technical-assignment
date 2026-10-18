@@ -1,0 +1,11 @@
+$ fs_cli -x "status"
+
+UP 0 years, 0 days, 5 hours, 50 minutes, 49 seconds, 632 milliseconds, 652 microseconds
+FreeSWITCH (Version 1.11.3 -release-33213556856-ef32e20529 64bit) is ready
+40 session(s) since startup
+0 session(s) - peak 4, last 5min 0 
+0 session(s) per Sec out of max 30, peak 2, last 5min 0 
+1000 session(s) max
+min idle cpu 0.00/99.03
+Current Stack Size/Max 240K/8192K
+
